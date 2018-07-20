@@ -3969,7 +3969,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </param>
 <param name="SBOLBage" description="">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <nodes>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
@@ -3980,13 +3980,13 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </nodes>
 <levels>
 <level id="showAnimatedBagePostLoginHistory">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </level>
 <level id="showBagePostLoginHistory">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </level>
 <level id="showBagePreLogin">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </level>
 <level id="showBageOnAppIcon">
 <enabled>true</enabled>
