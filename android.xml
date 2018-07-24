@@ -2748,16 +2748,19 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
+					<newNotificationDesign>true</newNotificationDesign>
 				</node>
 				<node id="ift-node1.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
+					<newNotificationDesign>false</newNotificationDesign>
 				</node>
 				<node id="ift-node2.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
+					<newNotificationDesign>false</newNotificationDesign>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
@@ -2768,11 +2771,13 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
+					<newNotificationDesign>false</newNotificationDesign>
 				</node>
 				<node id="node4.online.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
+					<newNotificationDesign>false</newNotificationDesign>
 				</node>
 			</nodes>
 		</param>
