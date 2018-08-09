@@ -3965,7 +3965,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </param>
 <param name="PushHistoryFastScroll" description="">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="SBOLBage" description="">
 <type>setting</type>
