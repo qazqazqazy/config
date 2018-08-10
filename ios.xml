@@ -3079,7 +3079,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </param>
 <param name="UsePushAutoDisable" description="активация алгоритма автоотключения push">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="brokerage_8_12" description="Брокерское обслуживание">
 <enabled>true</enabled>
