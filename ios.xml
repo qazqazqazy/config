@@ -3269,7 +3269,7 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </param>
 <param name="TxPushSuggestion" description="">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <periodInDays>3</periodInDays>
 <number>5</number>
 </param>
