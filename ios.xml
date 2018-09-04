@@ -1433,7 +1433,7 @@ The entered ID is already in use in the system. Enter a different value
 <enabled>true</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>0</productNavigationBarMod>
 <coreQR>false</coreQR>
 <SBTelecom>true</SBTelecom>
 <CreditRating>false</CreditRating>
