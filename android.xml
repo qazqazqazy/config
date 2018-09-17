@@ -2749,35 +2749,53 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
 					<newNotificationDesign>true</newNotificationDesign>
+					<pushLogoTypeUsing>
+                				<version from="8.4" value="true"/>
+            				</pushLogoTypeUsing>
 				</node>
 				<node id="ift-node1.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
 					<newNotificationDesign>false</newNotificationDesign>
+					<pushLogoTypeUsing>
+                				<version from="8.4" value="true"/>
+            				</pushLogoTypeUsing>
 				</node>
 				<node id="ift-node2.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
 					<newNotificationDesign>false</newNotificationDesign>
+					<pushLogoTypeUsing>
+                				<version from="8.4" value="true"/>
+            				</pushLogoTypeUsing>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
+					<pushLogoTypeUsing>
+                				<version from="8.4" value="true"/>
+            				</pushLogoTypeUsing>
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
 					<newNotificationDesign>false</newNotificationDesign>
+					<pushLogoTypeUsing>
+                				<version from="8.4" value="true"/>
+            				</pushLogoTypeUsing>
 				</node>
 				<node id="node4.online.sberbank.ru">
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<alternativePushSettingTexts>true</alternativePushSettingTexts>
 					<pushPreEnrichment>false</pushPreEnrichment>
 					<newNotificationDesign>false</newNotificationDesign>
+					<pushLogoTypeUsing>
+                				<version from="8.4" value="true"/>
+            				</pushLogoTypeUsing>
 				</node>
 			</nodes>
 		</param>
