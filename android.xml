@@ -3226,7 +3226,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.4" value="true"/>
+<version from="8.6" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -3242,7 +3242,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.4" value="true"/>
+<version from="8.6" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
@@ -3258,7 +3258,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.4" value="true"/>
+<version from="8.6" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
@@ -3274,7 +3274,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.4" value="true"/>
+<version from="8.6" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -3290,7 +3290,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.4" value="true"/>
+<version from="8.6" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="node4.online.sberbank.ru">
@@ -3306,7 +3306,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.4" value="true"/>
+<version from="8.6" value="true"/>
 </pushLogoTypeUsing>
 </node>
 </nodes>
