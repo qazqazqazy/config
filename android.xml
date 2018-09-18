@@ -1,4 +1,4 @@
-<configuration>s XM
+<configuration
 <params>
 <param name="Loyalty" description="Программа лояльности «Спасибо от Сбербанка»">
 <type>list</type>
