@@ -3223,12 +3223,12 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
+<version from="9.0" value="true"/>
 </requestPermissionToReadSMS>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.6" value="true"/>
+<version from="9.0" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -3241,12 +3241,12 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
+<version from="9.0" value="true"/>
 </requestPermissionToReadSMS>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.6" value="true"/>
+<version from="9.0" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
@@ -3259,12 +3259,12 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
+<version from="9.0" value="true"/>
 </requestPermissionToReadSMS>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.6" value="true"/>
+<version from="9.0" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
@@ -3277,12 +3277,12 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
+<version from="9.0" value="true"/>
 </requestPermissionToReadSMS>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.6" value="true"/>
+<version from="9.0" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -3295,12 +3295,12 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
+<version from="9.0" value="true"/>
 </requestPermissionToReadSMS>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.6" value="true"/>
+<version from="9.0" value="true"/>
 </pushLogoTypeUsing>
 </node>
 <node id="node4.online.sberbank.ru">
@@ -3313,12 +3313,12 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
+<version from="9.0" value="true"/>
 </requestPermissionToReadSMS>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newFailedOperationDesign>true</newFailedOperationDesign>
 <pushLogoTypeUsing>
-<version from="8.6" value="true"/>
+<version from="9.0" value="true"/>
 </pushLogoTypeUsing>
 </node>
 </nodes>
