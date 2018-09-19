@@ -3220,6 +3220,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -3236,6 +3238,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -3252,6 +3256,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -3268,6 +3274,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -3284,6 +3292,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
@@ -3300,6 +3310,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
