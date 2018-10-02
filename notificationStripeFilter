@@ -4169,12 +4169,24 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 </node> 
 </nodes>
 </param>
-<param name="notificationStripeHistory" description="">
+<param name="notificationStripeFilter"description="">    
+<type>setting</type>
+<enabled>true</enabled>
+<nodes>
+<nodeid="mobile.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<nodeid="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<nodeid="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+</nodes>
+</param>
+<param name="fastscroll" description="">
 <type>setting</type>
 <enabled>false</enabled>
-<nodes>
-<node id="mobile.sberbank.ru">
-<enabled>false</enabled>
-</node>
+</param>
 </params>
 </configuration>
