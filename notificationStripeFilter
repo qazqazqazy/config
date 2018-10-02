@@ -5033,37 +5033,37 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="TPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разрешенных нодах">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="NodeTPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разных нодах">
 <type>list</type>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="greenfield1.online.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="194.186.207.23">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 </nodes>
 </param>
