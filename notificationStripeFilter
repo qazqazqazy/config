@@ -4154,19 +4154,23 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <enabled>true</enabled>
 </nodes>
 </param>
-<param name="notificationStripeHistory" description="">
+<param name="fastscroll" description="">
+<type>setting</type>
+<enabled>false</enabled>
+</param>
+<param name="notificationStripeHistory" description="">    
 <type>setting</type>
 <enabled>true</enabled>
 <nodes>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
 </node>
-<param name="CorePermission" description="">  
-<type>list</type>  
-<nodes>      
-<node id="mobile.sberbank.ru"> 
-<productNavigationBarMod>3</productNavigationBarMod> 
-</node> 
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<nodeid="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
 </nodes>
 </param>
 <param name="notificationStripeFilter"description="">    
@@ -4183,10 +4187,6 @@ consumer-loan/v2/mobile/banking/products/loans/consumerloan/request/GetConfirmat
 <enabled>true</enabled>
 </node>
 </nodes>
-</param>
-<param name="fastscroll" description="">
-<type>setting</type>
-<enabled>false</enabled>
 </param>
 </params>
 </configuration>
