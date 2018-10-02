@@ -5872,7 +5872,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 </node>
 </nodes>
 </param>
-<param name="fastscroll" description="">
+<param name="fastscroll" description=""> /проверять тут/
 <type>setting</type>
 <enabled>false</enabled>
 </param>
