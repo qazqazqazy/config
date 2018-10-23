@@ -5657,10 +5657,10 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </level>
 <level id="showBagePostLoginHistory">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </level>
 <level id="showBagePreLogin">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </level>
 <level id="showBageOnAppIcon">
 <enabled>true</enabled>
