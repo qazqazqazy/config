@@ -5911,8 +5911,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>true</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>false</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
@@ -5930,8 +5930,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<TurnOffOperationPush>true</TurnOffOperationPush>
+<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+<TurnOffOperationPush>false</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
