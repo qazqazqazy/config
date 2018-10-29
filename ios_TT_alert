@@ -5856,6 +5856,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <type>list</type>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5868,6 +5869,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="greenfield1.online.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5880,6 +5882,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5892,6 +5895,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="mobile.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5904,6 +5908,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="194.186.207.23">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5916,6 +5921,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5928,6 +5934,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5939,6 +5946,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
@@ -5951,6 +5959,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
