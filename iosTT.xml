@@ -2,7 +2,7 @@
 <params>
 <param name="Loyalty" description="Программа лояльности «Спасибо от Сбербанка»">
 <type>list</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <nodes>
 <node id="mobile.sberbank.ru" description="Стенд ПСИ">
 <bonusBalance>true</bonusBalance>
@@ -59,6 +59,27 @@
 <type>list</type>
 <enabled>true</enabled>
 </param>
+<param name="Premier" description="Функционал Сбербанк Пресмьер">
+<type>list</type>
+<enabled>true</enabled>
+<nodes>
+<node id="mobile.sberbank.ru" description="Стенд ПСИ">
+<distanceMarking>true</distanceMarking>
+</node>
+<node id="ift-node1.testonline.sberbank.ru" description="Стенд ИФТ блок 1">
+<distanceMarking>true</distanceMarking>
+</node>
+<node id="ift-node2.testonline.sberbank.ru" description="Стенд ИФТ блок 2">
+<distanceMarking>true</distanceMarking>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 1 (мобильный)">
+<distanceMarking>true</distanceMarking>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 2 (мобильный)">
+<distanceMarking>true</distanceMarking>
+</node>
+</nodes>
+</param>
 <param name="DebitCardAppMP" description="Заказ дебетовых карт">
 <type>service</type>
 <enabled>false</enabled>
@@ -91,44 +112,44 @@
 <ikaotransliteration>false</ikaotransliteration>
 </node>
 <node id="node1.online.sberbank.ru">
-<enabled>false</enabled>
-<apiv2>false</apiv2>
+<enabled>true</enabled>
+<apiv2>true</apiv2>
 <fatkashow>false</fatkashow>
 <ufsbranches>false</ufsbranches>
-<ufshistory>false</ufshistory>
+<ufshistory>true</ufshistory>
 <digitalcardshow>false</digitalcardshow>
 <ikaotransliteration>false</ikaotransliteration>
 </node>
 <node id="node2.online.sberbank.ru">
-<enabled>false</enabled>
-<apiv2>false</apiv2>
+<enabled>true</enabled>
+<apiv2>true</apiv2>
 <fatkashow>false</fatkashow>
 <ufsbranches>false</ufsbranches>
-<ufshistory>false</ufshistory>
+<ufshistory>true</ufshistory>
 <digitalcardshow>false</digitalcardshow>
 <ikaotransliteration>false</ikaotransliteration>
 </node>
 <node id="node3.online.sberbank.ru">
-<enabled>false</enabled>
-<apiv2>false</apiv2>
+<enabled>true</enabled>
+<apiv2>true</apiv2>
 <fatkashow>false</fatkashow>
 <ufsbranches>false</ufsbranches>
-<ufshistory>false</ufshistory>
+<ufshistory>true</ufshistory>
 <digitalcardshow>false</digitalcardshow>
 <ikaotransliteration>false</ikaotransliteration>
 </node>
 <node id="node4.online.sberbank.ru">
-<enabled>false</enabled>
-<apiv2>false</apiv2>
+<enabled>true</enabled>
+<apiv2>true</apiv2>
 <fatkashow>false</fatkashow>
 <ufsbranches>false</ufsbranches>
-<ufshistory>false</ufshistory>
+<ufshistory>true</ufshistory>
 <digitalcardshow>false</digitalcardshow>
 <ikaotransliteration>false</ikaotransliteration>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
-<apiv2>false</apiv2>
+<apiv2>true</apiv2>
 <fatkashow>false</fatkashow>
 <ufsbranches>true</ufsbranches>
 <ufshistory>true</ufshistory>
@@ -137,7 +158,7 @@
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <enabled>true</enabled>
-<apiv2>false</apiv2>
+<apiv2>true</apiv2>
 <fatkashow>false</fatkashow>
 <ufsbranches>true</ufsbranches>
 <ufshistory>true</ufshistory>
@@ -222,8 +243,9 @@
 <type>service</type>
 <embossingtitle>Имя владельца</embossingtitle>
 <embossingvalue>DIGITAL CARD</embossingvalue>
-<embossingdescription>Это поле может пригодится для оплаты в интернете</embossingdescription>
+<embossingdescription>Это поле может пригодиться для оплаты в интернете</embossingdescription>
 <enabled>true</enabled>
+<classic-encryption>true</classic-encryption>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>false</enabled>
@@ -295,36 +317,7 @@
 <ufshistory>true</ufshistory>
 <blocknotification>true</blocknotification>
 <embossingenabled>true</embossingenabled>
-<panrq>true</panrq>
-<showhints>true</showhints>
-</node>
-<node id="ift-node0.testonline.sberbank.ru">
-<enabled>false</enabled>
-<fatkashow>false</fatkashow>
-<getcvv>true</getcvv>
-<ufshistory>true</ufshistory>
-<blocknotification>true</blocknotification>
-<embossingenabled>true</embossingenabled>
-<panrq>true</panrq>
-<showhints>true</showhints>
-</node>
-<node id="ift-node1.testonline.sberbank.ru">
-<enabled>true</enabled>
-<fatkashow>false</fatkashow>
-<getcvv>true</getcvv>
-<ufshistory>true</ufshistory>
-<blocknotification>true</blocknotification>
-<embossingenabled>true</embossingenabled>
-<panrq>true</panrq>
-<showhints>true</showhints>
-</node>
-<node id="ift-node2.testonline.sberbank.ru">
-<enabled>true</enabled>
-<fatkashow>false</fatkashow>
-<getcvv>true</getcvv>
-<ufshistory>true</ufshistory>
-<blocknotification>true</blocknotification>
-<embossingenabled>true</embossingenabled>
+<panmask>true</panmask>
 <panrq>true</panrq>
 <showhints>true</showhints>
 </node>
@@ -335,7 +328,9 @@
 <ufshistory>true</ufshistory>
 <blocknotification>true</blocknotification>
 <embossingenabled>true</embossingenabled>
+<panmask>true</panmask>
 <panrq>true</panrq>
+<classic-encryption>true</classic-encryption>
 <showhints>true</showhints>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -345,16 +340,9 @@
 <ufshistory>true</ufshistory>
 <blocknotification>true</blocknotification>
 <embossingenabled>true</embossingenabled>
+<panmask>true</panmask>
 <panrq>true</panrq>
 <showhints>true</showhints>
-</node>
-<node id="194.186.207.23">
-<enabled>true</enabled>
-<fatkashow>false</fatkashow>
-<getcvv>true</getcvv>
-<ufshistory>false</ufshistory>
-<blocknotification>true</blocknotification>
-<embossingenabled>true</embossingenabled>
 </node>
 </nodes>
 </param>
@@ -401,6 +389,14 @@
 <CardPANRq id="Visa Digital"/>
 </CardPANRqList>
 </param>
+<param name="CardPANMask" description="Определение типов карт для маскирования PAN-номера карты">
+<type>list</type>
+<enabled>true</enabled>
+<CardPANMaskList>
+<CardPANMask id="Visa Virtual"/>
+<CardPANMask id="Mastercard Virtual"/>
+</CardPANMaskList>
+</param>
 <param name="pin_number" description="">
 <type>setting</type>
 <enabled>true</enabled>
@@ -445,40 +441,52 @@
 <enabled>true</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
-<cardStatement>false</cardStatement>
+<cardStatementOperations>false</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="node1.online.sberbank.ru">
-<cardStatement>false</cardStatement>
+<cardStatementOperations>false</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="node2.online.sberbank.ru">
-<cardStatement>false</cardStatement>
+<cardStatementOperations>false</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="node3.online.sberbank.ru">
-<cardStatement>false</cardStatement>
+<cardStatementOperations>false</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="greenfield1.online.sberbank.ru">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="194.186.207.23">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="mobile.sberbank.ru">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 <node id="10.21.152.7">
-<cardStatement>true</cardStatement>
+<cardStatementOperations>true</cardStatementOperations>
+<StatementOperationsLimit>1000</StatementOperationsLimit>
 </node>
 </nodes>
 </param>
@@ -854,58 +862,78 @@ The entered ID is already in use in the system. Enter a different value
 </attempt>
 </attempts>
 </param>
+<param name="marketplaceMainScreenOffer" description="">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
 <param name="newmarketplace" description="Витрина 7.3.1">
 <type>setting</type>
 <enabled>true</enabled>
 <urls>
-<url name="marketplace_v1" url="https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/marketplace/config.ios.8.15.xml" version="9.2"/>
-<url name="marketplace_v2" url="https://test.stat.online.sberbank.ru/PhizIC-res/mapicfg/marketplace/config.ios.9.2.xml" version="9.2"/>
+<url name="marketplace_v1" url="http://sbertech.online/marketplace/config.ios.8.15.xml" version="9.1.0"/>
+<url name="marketplace_v2" url="http://sbertech.online/marketplace/config.ios.9.2.xml" version="9.2.0"/>
+<url name="marketplace_v2" url="http://sbertech.online/marketplace/config.ios.9.3.xml" version="9.3.0"/>
 </urls>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="node1.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="node2.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="node3.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="node4.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="194.186.207.23">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="mobile.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="psinode2.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <enabled_Marketplace_2_0>true</enabled_Marketplace_2_0>
+<mainEntryEnabled>true</mainEntryEnabled>
 </node>
 </nodes>
 </param>
@@ -983,7 +1011,7 @@ The entered ID is already in use in the system. Enter a different value
 <BINrange start="427420"/>
 <BINrange start="427422"/>
 <BINrange start="427425" end="427428"/>
-<BINrange start="427430" end="427433"/>
+<BINrange start="427433" end="427435"/>
 <BINrange start="427436"/>
 <BINrange start="427438" end="427442"/>
 <BINrange start="427444" end="427446"/>
@@ -1039,7 +1067,7 @@ The entered ID is already in use in the system. Enter a different value
 <param name="nfcTokensManagementMain" description="Управление жизненным циклом токенов">
 <type>list</type>
 <enabled>true</enabled>
-<nfcTokensManagementVisa>true</nfcTokensManagementVisa>
+<nfcTokensManagementVisa>false</nfcTokensManagementVisa>
 <nfcTokensManagementMC>true</nfcTokensManagementMC>
 </param>
 <param name="statementWithLogo" description="Красивая выписка">
@@ -1066,6 +1094,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>false</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>false</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>false</P2PNonUserMessenger>
@@ -1095,6 +1124,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1124,6 +1154,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1153,6 +1184,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1183,6 +1215,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1213,6 +1246,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1242,6 +1276,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1271,6 +1306,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1300,6 +1336,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1329,6 +1366,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1358,6 +1396,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1387,6 +1426,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1404,7 +1444,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerPostcardFirework>true</MessengerPostcardFirework>
 <MessengerPostcardSend>true</MessengerPostcardSend>
 <MessengerPostcardView>true</MessengerPostcardView>
-<MessengerPostcardForNonClient>false</MessengerPostcardForNonClient>
+<MessengerPostcardForNonClient>true</MessengerPostcardForNonClient>
 <MessengerPostcardBeta815>true</MessengerPostcardBeta815>
 <MessengerPostcardUGCPhoto>true</MessengerPostcardUGCPhoto>
 <MessengerPostcardUGCVideo>true</MessengerPostcardUGCVideo>
@@ -1416,6 +1456,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1445,6 +1486,7 @@ The entered ID is already in use in the system. Enter a different value
 <MessengerLoginNew>true</MessengerLoginNew>
 <MessengerP2P>true</MessengerP2P>
 <MessengerBlockContact>true</MessengerBlockContact>
+<MessengerBlockContactWithReason>true</MessengerBlockContactWithReason>
 <p2pAuth>true</p2pAuth>
 <timeToRefreshUnread>600</timeToRefreshUnread>
 <P2PNonUserMessenger>true</P2PNonUserMessenger>
@@ -1524,7 +1566,7 @@ The entered ID is already in use in the system. Enter a different value
 <PFMUserParams>false</PFMUserParams>
 <PFMOfferTips>false</PFMOfferTips>
 <currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
-<pfmApiVersion>1.40</pfmApiVersion>
+<pfmApiVersion>1.30</pfmApiVersion>
 <minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
 <budget3_0Enabled>true</budget3_0Enabled>
 <pfmDataOnline>true</pfmDataOnline>
@@ -1534,9 +1576,9 @@ The entered ID is already in use in the system. Enter a different value
 <node id="node1.online.sberbank.ru">
 <PFMSimilarSpendings>false</PFMSimilarSpendings>
 <currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
-<PFMUserParams>false</PFMUserParams>
+<PFMUserParams>true</PFMUserParams>
 <PFMOfferTips>false</PFMOfferTips>
-<pfmApiVersion>1.40</pfmApiVersion>
+<pfmApiVersion>1.30</pfmApiVersion>
 <minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
 <budget3_0Enabled>true</budget3_0Enabled>
 <pfmDataOnline>true</pfmDataOnline>
@@ -1628,6 +1670,78 @@ The entered ID is already in use in the system. Enter a different value
 <SendALFConnectInHistory>true</SendALFConnectInHistory>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<PFMSimilarSpendings>true</PFMSimilarSpendings>
+<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
+<PFMUserParams>true</PFMUserParams>
+<PFMOfferTips>true</PFMOfferTips>
+<pfmApiVersion>1.40</pfmApiVersion>
+<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
+<budget3_0Enabled>true</budget3_0Enabled>
+<pfmDataOnline>true</pfmDataOnline>
+<ALFInHistory>true</ALFInHistory>
+<SendALFConnectInHistory>true</SendALFConnectInHistory>
+</node>
+<node id="ift-node4.testonline.sberbank.ru">
+<PFMSimilarSpendings>true</PFMSimilarSpendings>
+<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
+<PFMUserParams>true</PFMUserParams>
+<PFMOfferTips>true</PFMOfferTips>
+<pfmApiVersion>1.40</pfmApiVersion>
+<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
+<budget3_0Enabled>true</budget3_0Enabled>
+<pfmDataOnline>true</pfmDataOnline>
+<ALFInHistory>true</ALFInHistory>
+<SendALFConnectInHistory>true</SendALFConnectInHistory>
+</node>
+<node id="ift-node4-mp.testonline.sberbank.ru">
+<PFMSimilarSpendings>true</PFMSimilarSpendings>
+<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
+<PFMUserParams>true</PFMUserParams>
+<PFMOfferTips>true</PFMOfferTips>
+<pfmApiVersion>1.40</pfmApiVersion>
+<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
+<budget3_0Enabled>true</budget3_0Enabled>
+<pfmDataOnline>true</pfmDataOnline>
+<ALFInHistory>true</ALFInHistory>
+<SendALFConnectInHistory>true</SendALFConnectInHistory>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<PFMSimilarSpendings>true</PFMSimilarSpendings>
+<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
+<PFMUserParams>true</PFMUserParams>
+<PFMOfferTips>true</PFMOfferTips>
+<pfmApiVersion>1.40</pfmApiVersion>
+<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
+<budget3_0Enabled>true</budget3_0Enabled>
+<pfmDataOnline>true</pfmDataOnline>
+<ALFInHistory>true</ALFInHistory>
+<SendALFConnectInHistory>true</SendALFConnectInHistory>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<PFMSimilarSpendings>true</PFMSimilarSpendings>
+<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
+<PFMUserParams>true</PFMUserParams>
+<PFMOfferTips>true</PFMOfferTips>
+<pfmApiVersion>1.40</pfmApiVersion>
+<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
+<budget3_0Enabled>true</budget3_0Enabled>
+<pfmDataOnline>true</pfmDataOnline>
+<ALFInHistory>true</ALFInHistory>
+<SendALFConnectInHistory>true</SendALFConnectInHistory>
+</node>
+<node id="ift-node5.testonline.sberbank.ru">
+<PFMSimilarSpendings>true</PFMSimilarSpendings>
+<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
+<PFMUserParams>true</PFMUserParams>
+<PFMOfferTips>true</PFMOfferTips>
+<pfmApiVersion>1.40</pfmApiVersion>
+<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
+<budget3_0Enabled>true</budget3_0Enabled>
+<pfmDataOnline>true</pfmDataOnline>
+<ALFInHistory>true</ALFInHistory>
+<SendALFConnectInHistory>true</SendALFConnectInHistory>
+</node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
 <PFMSimilarSpendings>true</PFMSimilarSpendings>
 <currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
 <PFMUserParams>true</PFMUserParams>
@@ -1670,41 +1784,53 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>false</enabledPostlogin>
 <isHidingCallScreenEnabled>false</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>false</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>false</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>false</isVOIPNMTEnabled>
 </node>
 <node id="node1.online.sberbank.ru">
-<enabled>false</enabled>
-<enabledPrelogin>false</enabledPrelogin>
-<enabledPostlogin>false</enabledPostlogin>
-<isHidingCallScreenEnabled>false</isHidingCallScreenEnabled>
-<isInCallStatusBarEnabled>false</isInCallStatusBarEnabled>
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="node2.online.sberbank.ru">
-<enabled>false</enabled>
-<enabledPrelogin>false</enabledPrelogin>
-<enabledPostlogin>false</enabledPostlogin>
-<isHidingCallScreenEnabled>false</isHidingCallScreenEnabled>
-<isInCallStatusBarEnabled>false</isInCallStatusBarEnabled>
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="node3.online.sberbank.ru">
-<enabled>false</enabled>
-<enabledPrelogin>false</enabledPrelogin>
-<enabledPostlogin>false</enabledPostlogin>
-<isHidingCallScreenEnabled>false</isHidingCallScreenEnabled>
-<isInCallStatusBarEnabled>false</isInCallStatusBarEnabled>
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
 <enabledPrelogin>true</enabledPrelogin>
 <enabledPostlogin>true</enabledPostlogin>
-<isHidingCallScreenEnabled>false</isHidingCallScreenEnabled>
-<isInCallStatusBarEnabled>false</isInCallStatusBarEnabled>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <enabled>true</enabled>
 <enabledPrelogin>true</enabledPrelogin>
 <enabledPostlogin>true</enabledPostlogin>
-<isHidingCallScreenEnabled>false</isHidingCallScreenEnabled>
-<isInCallStatusBarEnabled>false</isInCallStatusBarEnabled>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
@@ -1712,6 +1838,8 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>true</enabledPostlogin>
 <isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
@@ -1719,6 +1847,8 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>true</enabledPostlogin>
 <isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -1726,6 +1856,8 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>true</enabledPostlogin>
 <isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -1733,6 +1865,8 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>true</enabledPostlogin>
 <isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -1740,6 +1874,8 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>true</enabledPostlogin>
 <isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -1747,6 +1883,62 @@ The entered ID is already in use in the system. Enter a different value
 <enabledPostlogin>true</enabledPostlogin>
 <isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
 <isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
+</node>
+<node id="ift-node4.testonline.sberbank.ru">
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
+</node>
+<node id="ift-node4-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
+</node>
+<node id="ift-node5.testonline.sberbank.ru">
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
+</node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<enabledPrelogin>true</enabledPrelogin>
+<enabledPostlogin>true</enabledPostlogin>
+<isHidingCallScreenEnabled>true</isHidingCallScreenEnabled>
+<isInCallStatusBarEnabled>true</isInCallStatusBarEnabled>
+<isVOIPSessionWarmupEnabled>true</isVOIPSessionWarmupEnabled>
+<isVOIPNMTEnabled>true</isVOIPNMTEnabled>
 </node>
 </nodes>
 </param>
@@ -1787,6 +1979,24 @@ The entered ID is already in use in the system. Enter a different value
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <dialog900>true</dialog900>
 </node>
+<node id="ift-node4.testonline.sberbank.ru">
+<dialog900>true</dialog900>
+</node>
+<node id="ift-node4-mp.testonline.sberbank.ru">
+<dialog900>true</dialog900>
+</node>
+<node id="ift-node5.testonline.sberbank.ru">
+<dialog900>true</dialog900>
+</node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
+<dialog900>true</dialog900>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<dialog900>true</dialog900>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<dialog900>true</dialog900>
+</node>
 </nodes>
 </param>
 <param name="900Permissions" description="">
@@ -1799,6 +2009,14 @@ The entered ID is already in use in the system. Enter a different value
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <efsMobileBank>true</efsMobileBank>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<efsMobileBank>true</efsMobileBank>
+<pushAlertEnabled>true</pushAlertEnabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<efsMobileBank>true</efsMobileBank>
+<pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="node0.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
@@ -1824,12 +2042,6 @@ The entered ID is already in use in the system. Enter a different value
 </node>
 <node id="mobile.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
-<efsMobileBank>true</efsMobileBank>
-</node>
-<node id="ift-node1-mp.testonline.sberbank.ru">
-<efsMobileBank>true</efsMobileBank>
-</node>
-<node id="ift-node2-mp.testonline.sberbank.ru">
 <efsMobileBank>true</efsMobileBank>
 </node>
 </nodes>
@@ -1864,10 +2076,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices>true</governmentServices>
 <pensionTransfer>true</pensionTransfer>
 <pensionCertificate>true</pensionCertificate>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost/>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>false</showUfsHistoryOperations>
@@ -1885,25 +2098,31 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <overseasTransfer>true</overseasTransfer>
 <importantInfoEnabled>false</importantInfoEnabled>
 <historyRouterEnabled>true</historyRouterEnabled>
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
 <productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
-<InstantApp>true</InstantApp>
+<InstantApp>false</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="node1.online.sberbank.ru">
-<coreQR>false</coreQR>
+<coreQR>true</coreQR>
 <SBTelecom>true</SBTelecom>
 <CreditRating>false</CreditRating>
 <CreditRating_v2>false</CreditRating_v2>
@@ -1927,10 +2146,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>false</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost/>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>false</showUfsHistoryOperations>
@@ -1948,6 +2168,8 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <charity>
 <enabled>true</enabled>
 <billing>284</billing>
@@ -1963,19 +2185,23 @@ The entered ID is already in use in the system. Enter a different value
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
 <productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="node2.online.sberbank.ru">
-<coreQR>false</coreQR>
+<coreQR>true</coreQR>
 <SBTelecom>true</SBTelecom>
 <CreditRating>false</CreditRating>
 <CreditRating_v2>false</CreditRating_v2>
@@ -1999,10 +2225,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost/>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>false</showUfsHistoryOperations>
@@ -2020,6 +2247,8 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <charity>
 <enabled>true</enabled>
 <billing>284</billing>
@@ -2035,19 +2264,23 @@ The entered ID is already in use in the system. Enter a different value
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
 <productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="node3.online.sberbank.ru">
-<coreQR>false</coreQR>
+<coreQR>true</coreQR>
 <SBTelecom>true</SBTelecom>
 <CreditRating>false</CreditRating>
 <CreditRating_v2>false</CreditRating_v2>
@@ -2065,7 +2298,7 @@ The entered ID is already in use in the system. Enter a different value
 <selfTransfer>false</selfTransfer>
 <selfTransferStorno>false</selfTransferStorno>
 <creditCardAutorepayment>true</creditCardAutorepayment>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <governmentServices>true</governmentServices>
@@ -2074,6 +2307,7 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost/>
@@ -2092,6 +2326,8 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <charity>
 <enabled>true</enabled>
 <billing>284</billing>
@@ -2107,16 +2343,20 @@ The entered ID is already in use in the system. Enter a different value
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
 <productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2141,13 +2381,14 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices>true</governmentServices>
 <pensionTransfer>true</pensionTransfer>
 <pensionCertificate>true</pensionCertificate>
+<pensionRegistration>true</pensionRegistration>
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost/>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2165,6 +2406,8 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <charity>
 <enabled>true</enabled>
 <billing>284</billing>
@@ -2180,16 +2423,20 @@ The entered ID is already in use in the system. Enter a different value
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
 <productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
-<InstantApp>true</InstantApp>
+<InstantApp>false</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2217,10 +2464,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost/>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2238,6 +2486,8 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <charity>
 <enabled>true</enabled>
 <billing>284</billing>
@@ -2253,16 +2503,20 @@ The entered ID is already in use in the system. Enter a different value
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
 <productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="mobile.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2290,10 +2544,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>pfl-psi.efstst.sigma.sbrf.ru:443</UFSHost>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2311,6 +2566,8 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <charity>
 <enabled>true</enabled>
 <billing>4</billing>
@@ -2326,9 +2583,10 @@ The entered ID is already in use in the system. Enter a different value
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
@@ -2336,7 +2594,10 @@ The entered ID is already in use in the system. Enter a different value
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2364,17 +2625,18 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
 <showSpasibo>true</showSpasibo>
 <enableContactMangager>true</enableContactMangager>
 <AuthCyrrilicKeypadEnabled>true</AuthCyrrilicKeypadEnabled>
-<showCorporateCard>false</showCorporateCard>
+<showCorporateCard>true</showCorporateCard>
 <autoTouchID>true</autoTouchID>
 <suggestionsEnabled>true</suggestionsEnabled>
 <historyList_v2>true</historyList_v2>
@@ -2385,15 +2647,18 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <overseasTransfer>true</overseasTransfer>
 <importantInfoEnabled>false</importantInfoEnabled>
 <historyRouterEnabled>true</historyRouterEnabled>
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
@@ -2401,7 +2666,10 @@ The entered ID is already in use in the system. Enter a different value
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2429,10 +2697,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2450,15 +2719,18 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <overseasTransfer>true</overseasTransfer>
 <importantInfoEnabled>false</importantInfoEnabled>
 <historyRouterEnabled>true</historyRouterEnabled>
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
@@ -2466,7 +2738,10 @@ The entered ID is already in use in the system. Enter a different value
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2494,17 +2769,18 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
 <showSpasibo>true</showSpasibo>
 <enableContactMangager>true</enableContactMangager>
 <AuthCyrrilicKeypadEnabled>true</AuthCyrrilicKeypadEnabled>
-<showCorporateCard>false</showCorporateCard>
+<showCorporateCard>true</showCorporateCard>
 <autoTouchID>true</autoTouchID>
 <suggestionsEnabled>true</suggestionsEnabled>
 <historyList_v2>true</historyList_v2>
@@ -2515,15 +2791,18 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <overseasTransfer>true</overseasTransfer>
 <importantInfoEnabled>false</importantInfoEnabled>
 <historyRouterEnabled>true</historyRouterEnabled>
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
@@ -2531,7 +2810,10 @@ The entered ID is already in use in the system. Enter a different value
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2559,10 +2841,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2580,15 +2863,18 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <overseasTransfer>true</overseasTransfer>
 <importantInfoEnabled>false</importantInfoEnabled>
 <historyRouterEnabled>true</historyRouterEnabled>
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
@@ -2596,7 +2882,10 @@ The entered ID is already in use in the system. Enter a different value
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
-<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 <node id="10.21.152.7">
 <coreQR>true</coreQR>
@@ -2624,10 +2913,11 @@ The entered ID is already in use in the system. Enter a different value
 <governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
 <autoTransfer>true</autoTransfer>
 <UFSHost>sbt-oafs-498.sigma.sbrf.ru:443</UFSHost>
-<coreCreditCardInfo_v2>false</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
 <coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
 <OmniChannelHistory>true</OmniChannelHistory>
 <showUfsHistoryOperations>true</showUfsHistoryOperations>
@@ -2644,15 +2934,18 @@ The entered ID is already in use in the system. Enter a different value
 <currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
 <EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
 <EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
+<EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
 <overseasTransfer>true</overseasTransfer>
 <importantInfoEnabled>false</importantInfoEnabled>
 <historyRouterEnabled>true</historyRouterEnabled>
 <SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
 <webAnalyticsEnabled>true</webAnalyticsEnabled>
 <newSectionInvestEnable>true</newSectionInvestEnable>
-<newProductsVC>false</newProductsVC>
+<newProductsVC>true</newProductsVC>
 <hidingSectionEnabled>true</hidingSectionEnabled>
-<orderingSectionEnabled>false</orderingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>false</PrintAutoSubscriptionCheck>
@@ -2660,7 +2953,82 @@ The entered ID is already in use in the system. Enter a different value
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
+</node>
+<node id="ift-node4-mp.testonline.sberbank.ru">
+<coreQR>true</coreQR>
+<SBTelecom>true</SBTelecom>
+<CreditRating>false</CreditRating>
+<CreditRating_v2>false</CreditRating_v2>
+<OKBRating>true</OKBRating>
+<EnableBetaVersion>
+<version>8.1.2</version>
+<version>8.1.1</version>
+</EnableBetaVersion>
+<enableArrests>true</enableArrests>
+<cardDelivery>true</cardDelivery>
+<loanTable>true</loanTable>
+<hideRegion>true</hideRegion>
+<pciDss>true</pciDss>
+<cashByCode>true</cashByCode>
+<selfTransfer>true</selfTransfer>
+<selfTransferP2P>true</selfTransferP2P>
+<selfTransferStorno>true</selfTransferStorno>
+<creditCardAutorepayment>true</creditCardAutorepayment>
+<governmentServices>true</governmentServices>
+<pensionTransfer>true</pensionTransfer>
+<pensionCertificate>true</pensionCertificate>
+<governmentServices_actual>true</governmentServices_actual>
+<pensionTransfer_actual>true</pensionTransfer_actual>
+<pensionCertificate_actual>true</pensionCertificate_actual>
+<pensionRegistration>true</pensionRegistration>
+<blockedCardsStatusWay4>true</blockedCardsStatusWay4>
+<autoTransfer>true</autoTransfer>
+<UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
+<coreCreditCardInfo_v2>true</coreCreditCardInfo_v2>
+<coreCreditCardInfo_v3>true</coreCreditCardInfo_v3>
+<OmniChannelHistory>true</OmniChannelHistory>
+<showUfsHistoryOperations>true</showUfsHistoryOperations>
+<showSpasibo>true</showSpasibo>
+<enableContactMangager>true</enableContactMangager>
+<AuthCyrrilicKeypadEnabled>true</AuthCyrrilicKeypadEnabled>
+<showCorporateCard>true</showCorporateCard>
+<autoTouchID>true</autoTouchID>
+<suggestionsEnabled>true</suggestionsEnabled>
+<historyList_v2>true</historyList_v2>
+<shimmersEnabled>true</shimmersEnabled>
+<skeletonsEnabled>true</skeletonsEnabled>
+<early2018EnterAnimation>true</early2018EnterAnimation>
+<fastLoginOnMessengerPushEnabled>true</fastLoginOnMessengerPushEnabled>
+<currenciesInOperationsVCEnabled>false</currenciesInOperationsVCEnabled>
+<EribPenaltyDocumentsSavingAllowed>true</EribPenaltyDocumentsSavingAllowed>
+<EribFinesLoadingAutoretry>true</EribFinesLoadingAutoretry>
 <EribStatePaymentShortCutsEnabled>true</EribStatePaymentShortCutsEnabled>
+<EribAfterPayInfoEnabled>true</EribAfterPayInfoEnabled>
+<overseasTransfer>true</overseasTransfer>
+<importantInfoEnabled>false</importantInfoEnabled>
+<historyRouterEnabled>true</historyRouterEnabled>
+<SBTelecomSectionOnlyForClients>false</SBTelecomSectionOnlyForClients>
+<webAnalyticsEnabled>true</webAnalyticsEnabled>
+<newSectionInvestEnable>true</newSectionInvestEnable>
+<newProductsVC>true</newProductsVC>
+<hidingSectionEnabled>true</hidingSectionEnabled>
+<orderingSectionEnabled>true</orderingSectionEnabled>
+<hidingSectionTutorialEnabled>false</hidingSectionTutorialEnabled>
+<arrestInfoService>true</arrestInfoService>
+<FastLoginApp>false</FastLoginApp>
+<PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
+<productNavigationBarMod>3</productNavigationBarMod>
+<IsFromAddrBook>true</IsFromAddrBook>
+<InstantApp>true</InstantApp>
+<InstantAppV2>true</InstantAppV2>
+<mobilePOSEnabled>true</mobilePOSEnabled>
+<earlyLoanRepayment>true</earlyLoanRepayment>
+<newProductDetailsUIEnabled>true</newProductDetailsUIEnabled>
+<newProductDetailsContentEnabled>true</newProductDetailsContentEnabled>
 </node>
 </nodes>
 </param>
@@ -2672,6 +3040,25 @@ The entered ID is already in use in the system. Enter a different value
 </string>
 </strings>
 </param>
+<param name="integrationPlatform" description="">
+<type>list</type>
+<nodes>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<serviceSessionForUFS6AndUFS7>false</serviceSessionForUFS6AndUFS7>
+<startSessionUFS7>false</startSessionUFS7>
+<pathUFS7>/sm-uko/v1/session/create</pathUFS7>
+<pathUFS6>/client-session/ufsapi/sbol/v1/session/create</pathUFS6>
+<pathUFS>/client-session/ufsapi/sbol/v1/session/create</pathUFS>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<serviceSessionForUFS6AndUFS7>true</serviceSessionForUFS6AndUFS7>
+<startSessionUFS7>true</startSessionUFS7>
+<pathUFS7>/sm-uko/v1/session/create</pathUFS7>
+<pathUFS6>/client-session/ufsapi/sbol/v1/session/create</pathUFS6>
+<pathUFS>/client-session/ufsapi/sbol/v1/session/create</pathUFS>
+</node>
+</nodes>
+</param>
 <param name="extendedPermission" description="">
 <type>list</type>
 <nodes>
@@ -2681,7 +3068,7 @@ The entered ID is already in use in the system. Enter a different value
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <extendedPermissionEnabled>true</extendedPermissionEnabled>
-<disabledPermissions>false</disabledPermissions>
+<disabledPermissions>true</disabledPermissions>
 </node>
 <node id="mobile.sberbank.ru">
 <extendedPermissionEnabled>true</extendedPermissionEnabled>
@@ -2757,13 +3144,66 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/policy.pdf
 <p2pMaxLimit>1000000</p2pMaxLimit>
 <accountNumber>true</accountNumber>
 <registrationPrimaryFlowByCardNumber>true</registrationPrimaryFlowByCardNumber>
+<registrationByCardNumberNextVersion>true</registrationByCardNumberNextVersion>
+<abTests>true</abTests>
+<autofillEnabled>true</autofillEnabled>
+<siriShortcutsEnabled>true</siriShortcutsEnabled>
+<combinedRegistration>true</combinedRegistration>
+<newFocusStyle>true</newFocusStyle>
+</param>
+<param name="geoservice" description="Настройка URL гео-сервисов для блоков">
+<type>list</type>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<host>https://geo1.online.sberbank.ru/</host>
+</node>
+<node id="node2.online.sberbank.ru">
+<host>https://geo1.online.sberbank.ru/</host>
+</node>
+<node id="node3.online.sberbank.ru">
+<host>https://geo1.online.sberbank.ru/</host>
+</node>
+<node id="node4.online.sberbank.ru">
+<host>https://geo1.online.sberbank.ru/</host>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<host>https://geo12.online.sberbank.ru/</host>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<host>https://geo1.online.sberbank.ru/</host>
+</node>
+</nodes>
+</param>
+<param name="lastToggle" description="Уведомление о принудительном обновлении">
+<enabled>true</enabled>
+<lastToggleVerstion>8.16</lastToggleVerstion>
+<lastToggleDate>1539213790</lastToggleDate>
+<appStoreLink>
+https%3A%2F%2Fitunes.apple.com%2Fru%2Fapp%2Fsberbank-onl-jn%2Fid434391123%3Fmt%3D8
+</appStoreLink>
+<lastToggleSDK>9</lastToggleSDK>
+<lastToggleDevice>
+<device>iPhone</device>
+<device>iPhone 3G</device>
+<device>iPhone 3GS</device>
+<device>iPhone 4</device>
+</lastToggleDevice>
+<messageText>
+Пожалуйста, обновите свое мое мобильное приложение.
+</messageText>
+<upMessageText>
+Обнвовите операционную систему своего телефона до последней весрии. Это можно сделать в настройках телйона. Обновив систему вы сможете установить последнее приложение СБербанк Онлайн
+</upMessageText>
+<errorText>
+Вы не можете продолжить работу с данным приложением. Вам необходимо обновить его до последней версии. Перейдите в AppStore и обновите приложение.
+</errorText>
 </param>
 <param name="signOnParams" description="Парамтеры стрима SignOn">
 <type>list</type>
 <offerNonAccept>
 http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </offerNonAccept>
-<merchantDataManagementServiceName>Управление Sberbank ID</merchantDataManagementServiceName>
+<merchantDataManagementServiceName>Интернет-магазины и партнёры</merchantDataManagementServiceName>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2775,7 +3215,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>false</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="node1.online.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2787,7 +3227,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>false</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="node2.online.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2799,7 +3239,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>false</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="node3.online.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2811,7 +3251,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>false</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2823,7 +3263,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2835,7 +3275,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="194.186.207.23">
 <qrPayments>true</qrPayments>
@@ -2847,7 +3287,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2859,7 +3299,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2871,7 +3311,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2883,7 +3323,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -2895,7 +3335,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabled>true</enabled>
 <value>2000</value>
 </nonAccept>
-<merchantDataManagement>true</merchantDataManagement>
+<merchantDataManagement>false</merchantDataManagement>
 </node>
 <node id="mobile.sberbank.ru">
 <qrPayments>true</qrPayments>
@@ -3035,27 +3475,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 <nodes>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -3065,27 +3502,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
@@ -3096,26 +3530,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <closed>true</closed>
 <opened>false</opened>
 <mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
@@ -3125,27 +3557,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
@@ -3155,27 +3584,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="mobile.sberbank.ru">
@@ -3183,29 +3609,26 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <mainScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<closed>true</closed>
+<closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>false</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="greenfield1.online.sberbank.ru">
@@ -3215,27 +3638,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="node0.online.sberbank.ru">
@@ -3245,27 +3665,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="node1.online.sberbank.ru">
@@ -3275,27 +3692,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="node2.online.sberbank.ru">
@@ -3305,27 +3719,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreenStories>
 </node>
 <node id="node3.online.sberbank.ru">
@@ -3335,27 +3746,24 @@ http://lightapp.ru/config/salestools/create_target/index.html
 <limit>2147483647</limit>
 <closed>true</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </mainScreen>
 <successScreen>
 <enabled>true</enabled>
 <limit>2147483647</limit>
-<mvpEnabled>true</mvpEnabled>
-<backend>tipsBroker</backend>
+<backendTipsBroker>true</backendTipsBroker>
 </successScreen>
 <mainScreenStories>
 <enabled>true</enabled>
 <limit>2147483647</limit>
 <closed>false</closed>
 <opened>false</opened>
-<mvpEnabled>true</mvpEnabled>
-<mvpEnabled2>true</mvpEnabled2>
 <title>Рекомендуем</title>
 <no_offers_text>
 Для вас пока нет рекомендаций, но они скоро появятся
 </no_offers_text>
 <preloadCount>1</preloadCount>
+<backendTipsBroker>false</backendTipsBroker>
 </mainScreenStories>
 </node>
 </nodes>
@@ -3584,7 +3992,79 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 </nodes>
 </param>
-<param name="StatementsAndReferences" description="Справки и выписки c v8.11 и более">
+<param name="StatementsAndReferencesEntryPoint" description="Справки и выписки c v9.3 и более">
+<type>list</type>
+<enabled>true</enabled>
+<old_entry>true</old_entry>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<enabled>false</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>false</old_entry>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>false</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>false</old_entry>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>false</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>false</old_entry>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>false</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>false</old_entry>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>false</enabled>
+<statementsHistory>true</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<enabled>false</enabled>
+<statementsHistory>true</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="194.186.207.23">
+<enabled>true</enabled>
+<statementsHistory>true</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>true</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+<statementsHistory>false</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<statementsHistory>true</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<statementsHistory>true</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+<node id="10.21.152.7">
+<enabled>true</enabled>
+<statementsHistory>true</statementsHistory>
+<old_entry>true</old_entry>
+</node>
+</nodes>
+</param>
+<param name="StatementsAndReferences" description="Справки и выписки c v8.11">
 <type>list</type>
 <enabled>true</enabled>
 <nodes>
@@ -3656,7 +4136,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="CarLoansOperationHistory" description="Работа с историей операций">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="CarLoansPayment" description="Пополнение счета по автокредиту">
 <type>setting</type>
@@ -3674,10 +4154,6 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </path>
 </service>
 </services>
-</param>
-<param name="LoanNavigationScreenEnabled" description="Разводной экран кредитных продуктов">
-<type>setting</type>
-<enabled>true</enabled>
 </param>
 <param name="WelfareProductsMainScreen" description="Продукты благосостояния на главном экране">
 <type>setting</type>
@@ -3792,6 +4268,14 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <actionIPP>true</actionIPP>
 </node>
 </nodes>
+</param>
+<param name="UfsInsuranceMain" description="Отображение действующих страховых полисов на главной">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="UfsInsuranceContracts" description="Список страховых контрактов и детальной информации по ним">
+<type>setting</type>
+<enabled>true</enabled>
 </param>
 <param name="UfsRurPayment" description="классические переводы в ЕФС, замена переводов ЕРИБа">
 <type>service</type>
@@ -3932,12 +4416,22 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <type>setting</type>
 <enabled>true</enabled>
 <services>
-<service name="persDataAgreement" description="Текст согласия клиента на обработку персональных данных для расчета КП">
+<service name="CapacityCalculationAgreement" description="Текст согласия клиента на обработку персональных данных для расчета КП">
 <path>
-/person-credit-mb/v1/mobile/Banking/Products/Loans/CarLoans/Application/GetAgreement
+/persDataAgreement/pdp-agreement/v1/CapacityCalculationAgreement.json
 </path>
 <description>
-Нажимая кнопку "Оформить", вы соглашаетесь с условиями ПАО Сбербанк
+Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
+<a>ПАО Сбербанк</a>
+</description>
+</service>
+<service name="CapacityConsumerRequestAgreement" description="Текст согласия клиента на подачу заявки на потребительский кредит">
+<path>
+/persDataAgreement/pdp-agreement/v1/CapacityConsumerRequestAgreement.json
+</path>
+<description>
+Нажимая кнопку "Оформить", вы соглашаетесь с условиями
+<a>ПАО Сбербанк</a>
 </description>
 </service>
 </services>
@@ -3947,77 +4441,90 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="node1.online.sberbank.ru">
 <enabled>false</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="node2.online.sberbank.ru">
 <enabled>false</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="node3.online.sberbank.ru">
 <enabled>false</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>false</enabled>
 <calculateCC>true</calculateCC>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <enabled>false</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 <node id="10.21.152.7">
 <enabled>true</enabled>
 <calculateCC>true</calculateCC>
 <showcase>true</showcase>
 <createCreditIssue>true</createCreditIssue>
+<creditCardApplication>true</creditCardApplication>
 </node>
 </nodes>
 </param>
@@ -4026,6 +4533,14 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>false</enabled>
 </param>
 <param name="ExternalLogin_v2" description="Включение аутентификации через СБОЛ на внешних ресурсах v8.9.1+">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="SberIDNewClaims" description="Доработки по отображению списка передаваемых данных">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="SberIDReEntryFragment" description="Включение экрана повторного входа через SBOL">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
@@ -4087,6 +4602,69 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </nodes>
 </serviceProvider>
 </serviceProviders>
+</param>
+<param name="P2PTransferByPhoneToOtherBankSKB" description="Перевод в Совкомбанк по номеру телефона через УЭК">
+<type>list</type>
+<enabled>true</enabled>
+<serviceProviders>
+<serviceProvider name="Sovcombank" visibleName="Совкомбанк">
+<nodes>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<targetBilling>344</targetBilling>
+<targetProvider>623438</targetProvider>
+<targetService>623438</targetService>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<targetBilling>344</targetBilling>
+<targetProvider>623438</targetProvider>
+<targetService>623438</targetService>
+</node>
+<node id="mobile.sberbank.ru">
+<targetBilling>344</targetBilling>
+<targetProvider>688849</targetProvider>
+<targetService>688849</targetService>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<targetBilling>284</targetBilling>
+<targetProvider>550478249</targetProvider>
+<targetService>550478249</targetService>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<targetBilling>284</targetBilling>
+<targetProvider>500439915</targetProvider>
+<targetService>500439915</targetService>
+</node>
+<node id="node1.online.sberbank.ru">
+<targetBilling>284</targetBilling>
+<targetProvider>629175</targetProvider>
+<targetService>629175</targetService>
+</node>
+<node id="node2.online.sberbank.ru">
+<targetBilling>284</targetBilling>
+<targetProvider>500446239</targetProvider>
+<targetService>500446239</targetService>
+</node>
+<node id="node3.online.sberbank.ru">
+<targetBilling>284</targetBilling>
+<targetProvider>500445546</targetProvider>
+<targetService>500445546</targetService>
+</node>
+<node id="node4.online.sberbank.ru">
+<targetBilling>284</targetBilling>
+<targetProvider>500439915</targetProvider>
+<targetService>500439915</targetService>
+</node>
+</nodes>
+</serviceProvider>
+</serviceProviders>
+</param>
+<param name="P2PTransferByPhoneToOtherBankGroupLayout" description="Группировка пунктов меню (банков) по секциям">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="P2PExternalBankTransfer" description="Перевод в другой банк по номеру мобильного телефона">
+<type>setting</type>
+<enabled>true</enabled>
 </param>
 <param name="UsePushAutoDisable" description="активация алгоритма автоотключения push">
 <type>setting</type>
@@ -4289,8 +4867,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <param name="TxPushSuggestion" description="">
 <type>setting</type>
 <enabled>true</enabled>
-<periodInDays>7</periodInDays>
-<number>2</number>
+<periodInDays>3</periodInDays>
+<number>5</number>
 </param>
 <param name="nodeDoNotShowPushTutorialForApiLevels" description="">
 <type>list</type>
@@ -4336,9 +4914,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="node1.online.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4350,9 +4932,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="node2.online.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4364,9 +4950,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="node3.online.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4378,9 +4968,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4392,9 +4986,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4406,7 +5004,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
+<DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
+<DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="194.186.207.23">
 <SmartSearch>true</SmartSearch>
@@ -4418,9 +5022,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="mobile.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4432,9 +5040,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4446,9 +5058,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4460,9 +5076,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4474,9 +5094,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <SmartSearch>true</SmartSearch>
@@ -4488,9 +5112,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <HistoryPageCount>3</HistoryPageCount>
 <RequestDelay>400</RequestDelay>
 <NBAAForHistoryDisabled>true</NBAAForHistoryDisabled>
+<NBAAForPaymentsDisabled>true</NBAAForPaymentsDisabled>
 <MainNotification>true</MainNotification>
 <DDPNbaaEnabled>true</DDPNbaaEnabled>
+<DDPSmartNbaaEnabled>true</DDPSmartNbaaEnabled>
 <DDPContactsWeightsEnabled>true</DDPContactsWeightsEnabled>
+<ApplePayAdd>true</ApplePayAdd>
+<BlockCardAdd>true</BlockCardAdd>
 </node>
 </nodes>
 </param>
@@ -4642,15 +5270,20 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <nodes>
 <node id="node0.online.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
-<newOperationsHistoryList>false</newOperationsHistoryList>
+<newOperationsHistoryList>true</newOperationsHistoryList>
 <hideDaySum>false</hideDaySum>
 <tagAll>true</tagAll>
 <additionalOperationForm>true</additionalOperationForm>
-<receiveOperationsByTag>false</receiveOperationsByTag>
-<replaceInvoicesToHistoryOnAccount>false</replaceInvoicesToHistoryOnAccount>
-<refactoredOperationDetails>false</refactoredOperationDetails>
+<logotypes>true</logotypes>
+<routerForUFS>true</routerForUFS>
+<replaceInvoicesToHistory>true</replaceInvoicesToHistory>
 <smartSearchFromHistory>true</smartSearchFromHistory>
-<referenceOnOperation>false</referenceOnOperation>
+<receiveOperationsByTag>true</receiveOperationsByTag>
+<replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
+<refactoredOperationDetails>true</refactoredOperationDetails>
+<referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="node1.online.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4658,11 +5291,16 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <hideDaySum>false</hideDaySum>
 <tagAll>true</tagAll>
 <additionalOperationForm>true</additionalOperationForm>
-<receiveOperationsByTag>false</receiveOperationsByTag>
-<replaceInvoicesToHistoryOnAccount>false</replaceInvoicesToHistoryOnAccount>
-<refactoredOperationDetails>false</refactoredOperationDetails>
+<logotypes>true</logotypes>
+<routerForUFS>true</routerForUFS>
+<replaceInvoicesToHistory>true</replaceInvoicesToHistory>
 <smartSearchFromHistory>true</smartSearchFromHistory>
-<referenceOnOperation>false</referenceOnOperation>
+<receiveOperationsByTag>true</receiveOperationsByTag>
+<replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
+<refactoredOperationDetails>true</refactoredOperationDetails>
+<referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="node2.online.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4670,11 +5308,16 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <hideDaySum>false</hideDaySum>
 <tagAll>true</tagAll>
 <additionalOperationForm>true</additionalOperationForm>
-<receiveOperationsByTag>false</receiveOperationsByTag>
-<replaceInvoicesToHistoryOnAccount>false</replaceInvoicesToHistoryOnAccount>
-<refactoredOperationDetails>false</refactoredOperationDetails>
+<logotypes>true</logotypes>
+<routerForUFS>true</routerForUFS>
+<replaceInvoicesToHistory>true</replaceInvoicesToHistory>
 <smartSearchFromHistory>true</smartSearchFromHistory>
-<referenceOnOperation>false</referenceOnOperation>
+<receiveOperationsByTag>true</receiveOperationsByTag>
+<replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
+<refactoredOperationDetails>true</refactoredOperationDetails>
+<referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="node3.online.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4682,11 +5325,16 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <hideDaySum>false</hideDaySum>
 <tagAll>true</tagAll>
 <additionalOperationForm>true</additionalOperationForm>
-<receiveOperationsByTag>false</receiveOperationsByTag>
-<replaceInvoicesToHistoryOnAccount>false</replaceInvoicesToHistoryOnAccount>
-<refactoredOperationDetails>false</refactoredOperationDetails>
+<logotypes>true</logotypes>
+<routerForUFS>true</routerForUFS>
+<replaceInvoicesToHistory>true</replaceInvoicesToHistory>
 <smartSearchFromHistory>true</smartSearchFromHistory>
-<referenceOnOperation>false</referenceOnOperation>
+<receiveOperationsByTag>true</receiveOperationsByTag>
+<replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
+<refactoredOperationDetails>true</refactoredOperationDetails>
+<referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4701,7 +5349,9 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <receiveOperationsByTag>true</receiveOperationsByTag>
 <replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
 <refactoredOperationDetails>true</refactoredOperationDetails>
-<referenceOnOperation>false</referenceOnOperation>
+<referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4712,11 +5362,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <logotypes>true</logotypes>
 <routerForUFS>true</routerForUFS>
 <replaceInvoicesToHistory>true</replaceInvoicesToHistory>
+<smartSearchFromHistory>true</smartSearchFromHistory>
 <receiveOperationsByTag>true</receiveOperationsByTag>
 <replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
 <refactoredOperationDetails>true</refactoredOperationDetails>
-<smartSearchFromHistory>true</smartSearchFromHistory>
-<referenceOnOperation>false</referenceOnOperation>
+<referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="mobile.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4727,11 +5379,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <logotypes>true</logotypes>
 <routerForUFS>true</routerForUFS>
 <replaceInvoicesToHistory>true</replaceInvoicesToHistory>
+<smartSearchFromHistory>true</smartSearchFromHistory>
 <receiveOperationsByTag>true</receiveOperationsByTag>
 <replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
 <refactoredOperationDetails>true</refactoredOperationDetails>
-<smartSearchFromHistory>true</smartSearchFromHistory>
 <referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4746,6 +5400,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <refactoredOperationDetails>true</refactoredOperationDetails>
 <smartSearchFromHistory>true</smartSearchFromHistory>
 <referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4761,6 +5416,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <refactoredOperationDetails>true</refactoredOperationDetails>
 <smartSearchFromHistory>true</smartSearchFromHistory>
 <referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4776,6 +5432,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <refactoredOperationDetails>true</refactoredOperationDetails>
 <smartSearchFromHistory>true</smartSearchFromHistory>
 <referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -4791,6 +5448,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <refactoredOperationDetails>true</refactoredOperationDetails>
 <smartSearchFromHistory>true</smartSearchFromHistory>
 <referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
 </node>
 <node id="10.21.152.7">
 <externalOperationForm>true</externalOperationForm>
@@ -4801,11 +5459,13 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <logotypes>true</logotypes>
 <routerForUFS>true</routerForUFS>
 <replaceInvoicesToHistory>true</replaceInvoicesToHistory>
+<smartSearchFromHistory>true</smartSearchFromHistory>
 <receiveOperationsByTag>true</receiveOperationsByTag>
 <replaceInvoicesToHistoryOnAccount>true</replaceInvoicesToHistoryOnAccount>
 <refactoredOperationDetails>true</refactoredOperationDetails>
-<smartSearchFromHistory>true</smartSearchFromHistory>
 <referenceOnOperation>true</referenceOnOperation>
+<logotypesInOperationDetails>true</logotypesInOperationDetails>
+<mapInOperationDetails>true</mapInOperationDetails>
 </node>
 </nodes>
 </param>
@@ -4999,6 +5659,12 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
 </node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
 </nodes>
 </param>
 <param name="BiometricsTemplateCreate" description="">
@@ -5124,7 +5790,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PushHistoryFastScroll" description="">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="SBOLBage" description="">
 <type>setting</type>
@@ -5133,22 +5799,19 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
 </node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
 <node id="greenfield1.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="greenfield2.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node1.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node2.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node3.online.sberbank.ru">
-<enabled>true</enabled>
-</node>
-<node id="node4.online.sberbank.ru">
 <enabled>true</enabled>
 </node>
 </nodes>
@@ -5223,7 +5886,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 <nodes>
 <node id="mobile.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="node0.online.sberbank.ru">
 <enabled>true</enabled>
@@ -5269,7 +5932,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 <nodes>
 <node id="mobile.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="node0.online.sberbank.ru">
 <enabled>true</enabled>
@@ -5306,14 +5969,58 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 </nodes>
 </param>
-<param name="P2PReceiverPhonePriorityCard" description="Установка приоритетной карты для зачисления P2P Переводов по НМТ">
+<param name="SmartDepositDatePicker" description="Изменение работы инструмента выбора срока вклада">
+<type>list</type>
+<enabled>true</enabled>
+<nodes>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node0.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node4.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+</nodes>
+</param>
+<param name="PriorityCardP2PService" description="Установка приоритетной карты для зачисления P2P Переводов по НМТ">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="PriorityCardP2PServiceTutorial" description="Туториал для приоритетной карты">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <type>list</type>
-<pushHistoryHeadBatchSize>2</pushHistoryHeadBatchSize>
-<pushHistoryScrollBatchSize>3</pushHistoryScrollBatchSize>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -5322,9 +6029,10 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>false</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -5333,9 +6041,10 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>false</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -5344,9 +6053,10 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>false</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="mobile.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -5355,9 +6065,9 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>false</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
+<MessagesWithExpired>true</MessagesWithExpired>
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="194.186.207.23">
@@ -5367,82 +6077,71 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>false</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>false</forcedHistoryQueryIfNoHistory>
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-<buttonToPostLogin>false</buttonToPostLogin>
+<buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>true</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-<buttonToPostLogin>false</buttonToPostLogin>
+<buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>true</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-<buttonToPostLogin>false</buttonToPostLogin>
+<buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>true</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
-<buttonToPostLogin>false</buttonToPostLogin>
+<buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>1</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
-<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
-<pushHistoryRequest>true</pushHistoryRequest>
-<forcedHistoryQuery>true</forcedHistoryQuery>
-<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 </nodes>
 <bestActions>
 <actions>
-<bestActions name=“Перевод клиенту Сбербанка” link="sberbankonline://payments/p2p-by-card-number"/>
-<bestActions name=“ЖКХ и домашний телефон” link="sberbankonline://payments/jkh"/>
-<bestActions name=“Мобильная связь” link="sberbankonline://payments/mobile-phone"/> 
-</actions> 
-<operationAmount>1</operationAmount> 
+<bestActions name="Перевод клиенту Сбербанка" link="sberbankonline://payments/p2p-by-card-number"/>
+<bestActions name="ЖКХ и домашний телефон" link="sberbankonline://payments/jkh"/>
+<bestActions name="Мобильная связь" link="sberbankonline://payments/mobile-phone"/>
+</actions>
+<operationAmount>1000</operationAmount>
 </bestActions>
 </param>
 <param name="MAppNewBlockCardProcess" description="Обновленный процесс блокировки карт">
 <type>service</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>true</enabled>
@@ -5457,6 +6156,42 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>false</enabled>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>false</enabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="194.186.207.23">
+<enabled>true</enabled>
+</node>
+</nodes>
+</param>
+<param name="MomentumCardEndDateMessage" description="Окончание срока действия карты Моментум">
+<type>service</type>
+<enabled>true</enabled>
+<nodes>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield2.online.sberbank.ru">
 <enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
@@ -5506,13 +6241,13 @@ https://stat.online.sberbank.ru/PhizIC-res/logos/PU/7707089101.jpg
 </icon>
 <nodes>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<catalogID>621055</catalogID>
+<catalogID>622173</catalogID>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <catalogID>621055</catalogID>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<catalogID>621055</catalogID>
+<catalogID>622173</catalogID>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <catalogID>621055</catalogID>
@@ -5520,19 +6255,19 @@ https://stat.online.sberbank.ru/PhizIC-res/logos/PU/7707089101.jpg
 </nodes>
 </shortcut>
 <shortcut>
-<title>Оплата налога</title>
+<title>Налоги</title>
 <icon>
 https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f62251_38347.jpg
 </icon>
 <nodes>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<catalogID>615397</catalogID>
+<catalogID>617638</catalogID>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <catalogID>615397</catalogID>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<catalogID>615397</catalogID>
+<catalogID>617638</catalogID>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <catalogID>615397</catalogID>
@@ -5547,23 +6282,27 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <node id="greenfield0.online.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
+<CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
+<CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
+<CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="mobile.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
-<CardPhoneListCacheEnabled>false</CardPhoneListCacheEnabled>
+<CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="194.186.207.23">
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
+<CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
@@ -5584,6 +6323,67 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
+</node>
+</nodes>
+</param>
+<param name="a2aOverseasTransferToWesternUnion" description="Перевод денежных средств за границу через Western Union">
+<type>list</type>
+<enabled>true</enabled>
+<AgreementLink>
+https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
+</AgreementLink>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="194.186.207.23">
+<enabled>false</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>true</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<INNWU>7747067418</INNWU>
+</node>
+<node id="10.21.152.7">
+<enabled>true</enabled>
+<INNWU>7747067418</INNWU>
 </node>
 </nodes>
 </param>
@@ -5605,6 +6405,277 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>true</enabled>
 <catalogID>2428</catalogID>
+</node>
+</nodes>
+</param>
+<param name="PaymentsAndTransfers">
+<type>list</type>
+<nodes>
+<node id="greenfield1.online.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>true</BarcodeTutorialEnabled>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>true</BarcodeTutorialEnabled>
+</node>
+<node id="mobile.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>true</BarcodeTutorialEnabled>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>false</BarcodeTutorialEnabled>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>false</BarcodeTutorialEnabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>false</BarcodeTutorialEnabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>false</BarcodeTutorialEnabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>true</BarcodeTutorialEnabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>true</BarcodeTutorialEnabled>
+</node>
+<node id="194.186.207.23">
+<smartSearchFromPayment>true</smartSearchFromPayment>
+<BarcodeTutorialEnabled>true</BarcodeTutorialEnabled>
+</node>
+</nodes>
+</param>
+<param name="VIPClientIncreaseLimitClaim" description="Увеличение индивидуального лимита для ВИП клиентов">
+<type>service</type>
+<increaseLimitEnabled>true</increaseLimitEnabled>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<enabled>false</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>false</enabled>
+<increaseLimitEnabled>true</increaseLimitEnabled>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>false</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>false</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>true</increaseLimitEnabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>true</increaseLimitEnabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>false</increaseLimitEnabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>true</increaseLimitEnabled>
+</node>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+<increaseLimitEnabled>true</increaseLimitEnabled>
+</node>
+</nodes>
+</param>
+<param name="MessengerBeruGiftcard" description="">
+<type>list</type>
+<sendVersions>
+<version name="9.2.0">
+<enabled>true</enabled>
+</version>
+<version name="9.3.0">
+<enabled>true</enabled>
+</version>
+</sendVersions>
+<receiveVersions>
+<version name="9.2.0">
+<enabled>true</enabled>
+</version>
+<version name="9.3.0">
+<enabled>true</enabled>
+</version>
+</receiveVersions>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node1.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node2.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node3.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node4.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="194.186.207.23">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="mobile.sberbank.ru">
+<billingID>344</billingID>
+<providerID>688848</providerID>
+<serviceID>688848</serviceID>
+</node>
+</nodes>
+</param>
+<param name="MessengerLitresGiftcard" description="Сертификаты ЛитРес в диалогах">
+<type>list</type>
+<sendVersions>
+<version name="9.2">
+<enabled>true</enabled>
+</version>
+<version name="9.3">
+<enabled>true</enabled>
+</version>
+</sendVersions>
+<receiveVersions>
+<version name="9.2">
+<enabled>true</enabled>
+</version>
+<version name="9.3">
+<enabled>true</enabled>
+</version>
+</receiveVersions>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node1.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node2.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node3.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="node4.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="194.186.207.23">
+<billingID>284</billingID>
+<providerID>635832</providerID>
+<serviceID>635832</serviceID>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
+</node>
+<node id="mobile.sberbank.ru">
+<billingID>344</billingID>
+<providerID>623383</providerID>
+<serviceID>623383</serviceID>
 </node>
 </nodes>
 </param>
