@@ -5856,6 +5856,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <type>list</type>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5869,6 +5870,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="greenfield1.online.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5882,6 +5884,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5895,6 +5898,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="mobile.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5908,6 +5912,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="194.186.207.23">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5921,6 +5926,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5934,6 +5940,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5946,6 +5953,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5959,6 +5967,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -5972,6 +5981,12 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <MessagesWithExpired>true</MessagesWithExpired>
 </node>
 </nodes>
+<bestActions>
+<bestActions name=“Перевод клиенту Сбербанка” link="sberbankonline://payments/p2p-by-card-number"/>
+<bestActions name=“ЖКХ и домашний телефон” link="sberbankonline://payments/jkh"/>
+<bestActions name=“Мобильная связь” link="sberbankonline://payments/mobile-phone"/>
+<operationAmount>1000</operationAmount>   
+</bestActions>
 </param>
 <param name="MAppNewBlockCardProcess" description="Обновленный процесс блокировки карт">
 <type>service</type>
