@@ -5989,7 +5989,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<bestActions name="ЖКХ и домашний телефон" link="sberbankonline://payments/jkh"/>
 					<bestActions name="Мобильная связь" link="sberbankonline://payments/mobile-phone"/>
 				</actions>
-				<operationAmount>1</operationAmount>
+				<operationAmount>1000</operationAmount>
 			</bestActions>
 		</param>
 		<param name="MAppNewBlockCardProcess" description="Обновленный процесс блокировки карт">
