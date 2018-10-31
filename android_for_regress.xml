@@ -1979,19 +1979,19 @@ The entered ID is already in use in the system. Enter a different value
 <pushAlertTimeInterval>10</pushAlertTimeInterval>
 <efsMobileBank>true</efsMobileBank>
 <nodes>
-<node id="mobile.sberbank.ru">
+<node id="node0.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
 <efsMobileBank>true</efsMobileBank>
 </node>
-<node id="ift-node1.testonline.sberbank.ru">
+<node id="node1.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
 <efsMobileBank>true</efsMobileBank>
 </node>
-<node id="ift-node2.testonline.sberbank.ru">
+<node id="node2.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
 <efsMobileBank>true</efsMobileBank>
 </node>
-<node id="ift-node1-mp.testonline.sberbank.ru">
+<node id="node3.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
 <efsMobileBank>true</efsMobileBank>
 </node>
