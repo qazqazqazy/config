@@ -1,3 +1,4 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <configuration>
 <params>
 <param name="Loyalty" description="Программа лояльности «Спасибо от Сбербанка»">
@@ -3514,155 +3515,154 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <type>list</type>
 <nodes>
 <node id="mobile.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
-<newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
-<pushPreEnrichment>true</pushPreEnrichment>
-<updateTokenForegroundService>true</updateTokenForegroundService>
-<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
-<newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<newNotificationDesign>true</newNotificationDesign>
+<updateTokenForegroundService>true</updateTokenForegroundService>
+<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
-<reactivateMainPushNotifications>
-<version from="8.6" value="true"/>
-</reactivateMainPushNotifications>
-<showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
-</showNewAttributesInPushContent>
+<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
+<newFailedOperationDesign>true</newFailedOperationDesign>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
 </pushLogoTypeUsing>
-<showUniversalPushNotification>
+<showNewAttributesInPushContent>
+<version from="8.6" value="true"/>
+</showNewAttributesInPushContent>
+<reactivateMainPushNotifications>
+<version from="8.6" value="true"/>
+</reactivateMainPushNotifications>
+<snackBarWithLastTPU>
 <version from="8.7" value="true"/>
-</showUniversalPushNotification>
+</snackBarWithLastTPU>
+<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
+<snackBarDisplayTime>2</snackBarDisplayTime>
+<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
-<newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
-<pushPreEnrichment>false</pushPreEnrichment>
-<updateTokenForegroundService>true</updateTokenForegroundService>
-<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
-<newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<newNotificationDesign>true</newNotificationDesign>
+<updateTokenForegroundService>true</updateTokenForegroundService>
+<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
-<reactivateMainPushNotifications>
-<version from="8.6" value="true"/>
-</reactivateMainPushNotifications>
-<showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
-</showNewAttributesInPushContent>
+<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
+<newFailedOperationDesign>true</newFailedOperationDesign>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
 </pushLogoTypeUsing>
-<showUniversalPushNotification>
+<showNewAttributesInPushContent>
+<version from="8.6" value="true"/>
+</showNewAttributesInPushContent>
+<reactivateMainPushNotifications>
+<version from="8.6" value="true"/>
+</reactivateMainPushNotifications>
+<snackBarWithLastTPU>
 <version from="8.7" value="true"/>
-</showUniversalPushNotification>
+</snackBarWithLastTPU>
+<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
+<snackBarDisplayTime>2</snackBarDisplayTime>
+<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
-<newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
-<pushPreEnrichment>false</pushPreEnrichment>
-<updateTokenForegroundService>true</updateTokenForegroundService>
-<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
-<newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<newNotificationDesign>true</newNotificationDesign>
+<updateTokenForegroundService>true</updateTokenForegroundService>
+<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
-<reactivateMainPushNotifications>
-<version from="8.6" value="true"/>
-</reactivateMainPushNotifications>
-<showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
-</showNewAttributesInPushContent>
+<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
+<newFailedOperationDesign>true</newFailedOperationDesign>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
 </pushLogoTypeUsing>
-<showUniversalPushNotification>
+<showNewAttributesInPushContent>
+<version from="8.6" value="true"/>
+</showNewAttributesInPushContent>
+<reactivateMainPushNotifications>
+<version from="8.6" value="true"/>
+</reactivateMainPushNotifications>
+<snackBarWithLastTPU>
 <version from="8.7" value="true"/>
-</showUniversalPushNotification>
+</snackBarWithLastTPU>
+<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
+<snackBarDisplayTime>2</snackBarDisplayTime>
+<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
-<newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
-<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-<alternativePushSettingTexts>false</alternativePushSettingTexts>
-<pushPreEnrichment>true</pushPreEnrichment>
-<updateTokenForegroundService>true</updateTokenForegroundService>
-<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
-<newNotificationDesign>true</newNotificationDesign>
-<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
-<requestPermissionToReadSMS>
-<version from="8.5" value="true"/>
-</requestPermissionToReadSMS>
-<pushLogoTypeUsing>
-<version from="8.6" value="true"/>
-</pushLogoTypeUsing>
-<reactivateMainPushNotifications>
-<version from="8.6" value="true"/>
-</reactivateMainPushNotifications>
-<showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
-</showNewAttributesInPushContent>
-<showUniversalPushNotification>
-<version from="8.7" value="true"/>
-</showUniversalPushNotification>
-</node>
-<node id="ift-node2-mp.testonline.sberbank.ru">
-<excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
-<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
-<newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
-<pushPreEnrichment>false</pushPreEnrichment>
-<updateTokenForegroundService>true</updateTokenForegroundService>
-<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
-<newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<newNotificationDesign>true</newNotificationDesign>
+<updateTokenForegroundService>true</updateTokenForegroundService>
+<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
 </requestPermissionToReadSMS>
+<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
+<newFailedOperationDesign>true</newFailedOperationDesign>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
 </pushLogoTypeUsing>
+<showNewAttributesInPushContent>
+<version from="8.6" value="true"/>
+</showNewAttributesInPushContent>
 <reactivateMainPushNotifications>
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
-<showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
-</showNewAttributesInPushContent>
-<showUniversalPushNotification>
+<snackBarWithLastTPU>
 <version from="8.7" value="true"/>
-</showUniversalPushNotification>
+</snackBarWithLastTPU>
+<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
+<snackBarDisplayTime>2</snackBarDisplayTime>
+<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<alternativePushSettingTexts>true</alternativePushSettingTexts>
+<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+<newNotificationDesign>true</newNotificationDesign>
+<updateTokenForegroundService>true</updateTokenForegroundService>
+<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
+<requestPermissionToReadSMS>
+<version from="8.5" value="true"/>
+</requestPermissionToReadSMS>
+<showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
+<newFailedOperationDesign>true</newFailedOperationDesign>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<pushLogoTypeUsing>
+<version from="8.6" value="true"/>
+</pushLogoTypeUsing>
+<showNewAttributesInPushContent>
+<version from="8.6" value="true"/>
+</showNewAttributesInPushContent>
+<reactivateMainPushNotifications>
+<version from="8.6" value="true"/>
+</reactivateMainPushNotifications>
+<snackBarWithLastTPU>
+<version from="8.7" value="true"/>
+</snackBarWithLastTPU>
+<snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
+<snackBarDisplayTime>2</snackBarDisplayTime>
+<preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 </node>
 <node id="node4.online.sberbank.ru">
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
