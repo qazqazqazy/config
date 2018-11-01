@@ -3519,7 +3519,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <newNotificationDesign>true</newNotificationDesign>
 <updateTokenForegroundService>true</updateTokenForegroundService>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
@@ -3549,7 +3549,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <newNotificationDesign>true</newNotificationDesign>
 <updateTokenForegroundService>true</updateTokenForegroundService>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
@@ -3579,7 +3579,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <newNotificationDesign>true</newNotificationDesign>
 <updateTokenForegroundService>true</updateTokenForegroundService>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
@@ -3609,7 +3609,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <newNotificationDesign>true</newNotificationDesign>
 <updateTokenForegroundService>true</updateTokenForegroundService>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
@@ -3639,7 +3639,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <newNotificationDesign>true</newNotificationDesign>
 <updateTokenForegroundService>true</updateTokenForegroundService>
-<showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
+<showNewNotificationEntryPoint>false</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
