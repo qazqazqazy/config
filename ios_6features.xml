@@ -5866,7 +5866,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5880,7 +5880,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5894,7 +5894,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5908,7 +5908,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5922,7 +5922,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5936,7 +5936,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5949,7 +5949,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushLogoTypeUsing>true</pushLogoTypeUsing>
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5963,7 +5963,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
@@ -5977,7 +5977,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>1</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
 					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
