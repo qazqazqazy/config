@@ -3521,6 +3521,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <nodes>
 <node id="mobile.sberbank.ru">
+<ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -3553,6 +3554,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </showUniversalPushNotification>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -3584,6 +3586,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </showUniversalPushNotification>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -3615,6 +3618,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </showUniversalPushNotification>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -3646,6 +3650,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </showUniversalPushNotification>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <preloginTargetTapNotificationEnabled>true</preloginTargetTapNotificationEnabled>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
