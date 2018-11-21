@@ -3853,11 +3853,9 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </param>
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
-<notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
-<pushHistoryHeadBatchSize>5</pushHistoryHeadBatchSize>
-<pushHistoryScrollBatchSize>3</pushHistoryScrollBatchSize>
 <nodes>
 <node id="mobile.sberbank.ru">
+<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
@@ -3895,6 +3893,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
@@ -3931,6 +3930,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
@@ -3967,6 +3967,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
@@ -4003,6 +4004,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion> 
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
