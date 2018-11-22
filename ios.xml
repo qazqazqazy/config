@@ -3288,18 +3288,6 @@ The entered ID is already in use in the system. Enter a different value
 <type>setting</type>
 <enabled>true</enabled>
 </param>
-<param name="arrestInfoService" description="Отображение детальной информации по АиВ">
-<type>setting</type>
-<enabled>true</enabled>
-<bankruptUrl>
-https://www.sberbank.ru/ru/person/help-center/bankrupt?utm_source=sbol_app&utm_medium=details&utm_campaign=help-center.bankrupt
-</bankruptUrl>
-<arrestInfoUrl>
-https://www.sberbank.ru/ru/person/seizure?utm_source=iOS&utm_medium=moreInfo&utm_campaign=arrestInfoService
-</arrestInfoUrl>
-<phoneFSSP>8 800 250-39-32</phoneFSSP>
-<workingHoursFSSP>по будням 9:00 — 18:00 (МСК)</workingHoursFSSP>
-</param>
 <param name="ufsOperationDetailHistoryAlert" description="">
 <type>strings</type>
 <strings>
