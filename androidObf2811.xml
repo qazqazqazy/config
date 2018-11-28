@@ -3947,7 +3947,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </param>
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
-<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
+<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 <pushHistoryHeadBatchSize>5</pushHistoryHeadBatchSize> 
 <pushHistoryScrollBatchSize>2</pushHistoryScrollBatchSize> 
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
@@ -4000,7 +4000,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
+<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 <enabledShortcutNotifications>true</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
@@ -4047,7 +4047,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
+<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 <enabledShortcutNotifications>true</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
@@ -4094,7 +4094,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
+<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 <enabledShortcutNotifications>true</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
@@ -4141,7 +4141,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
+<redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
 <enabledShortcutNotifications>true</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
