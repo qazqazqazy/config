@@ -3948,8 +3948,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
 <redesignBunnerTxTPUSuggestion>false</redesignBunnerTxTPUSuggestion>
-<pushHistoryHeadBatchSize>10</pushHistoryHeadBatchSize> 
-<pushHistoryScrollBatchSize>5</pushHistoryScrollBatchSize> 
+<pushHistoryHeadBatchSize>5</pushHistoryHeadBatchSize> 
+<pushHistoryScrollBatchSize>2</pushHistoryScrollBatchSize> 
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <nodes>
 <node id="mobile.sberbank.ru">
