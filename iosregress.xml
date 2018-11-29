@@ -6024,7 +6024,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <PUSHNotificationsTransactionContentExtension>true</PUSHNotificationsTransactionContentExtension>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6038,7 +6038,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="greenfield1.online.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6052,7 +6052,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6066,7 +6066,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="mobile.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6080,7 +6080,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="194.186.207.23">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6094,7 +6094,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6108,7 +6108,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
@@ -6121,7 +6121,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>   
+<newRejectAuthorizeAlert>false</newRejectAuthorizeAlert>   
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
