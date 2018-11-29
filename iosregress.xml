@@ -6024,6 +6024,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <PUSHNotificationsTransactionContentExtension>true</PUSHNotificationsTransactionContentExtension>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6038,6 +6039,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="greenfield1.online.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6052,6 +6054,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6066,6 +6069,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="mobile.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6080,6 +6084,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="194.186.207.23">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6094,6 +6099,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6108,6 +6114,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6121,6 +6128,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>   
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6135,6 +6143,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
