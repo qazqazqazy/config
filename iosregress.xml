@@ -6035,7 +6035,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
@@ -6049,7 +6049,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
@@ -6063,7 +6063,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="mobile.sberbank.ru">
 <newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
@@ -6091,7 +6091,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
@@ -6105,7 +6105,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
@@ -6118,7 +6118,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>   
@@ -6132,7 +6132,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -6144,7 +6144,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
-<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showBestActionsInCuteCheque>false</showBestActionsInCuteCheque>
 </node>
 </nodes>
 <bestActions>
