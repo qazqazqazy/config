@@ -6026,7 +6026,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="greenfield0.online.sberbank.ru">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6041,7 +6041,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="greenfield1.online.sberbank.ru">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6071,7 +6071,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="mobile.sberbank.ru">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6086,7 +6086,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="194.186.207.23">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6101,7 +6101,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node1.testonline.sberbank.ru">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>false</newRejectAuthorizeAlert> 
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6116,7 +6116,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node2.testonline.sberbank.ru">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert> 
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -6130,7 +6130,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>   
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
+<showNewAttributesInPushContent>false</showNewAttributesInPushContent>
 <showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
 <showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
 <buttonToPostLogin>true</buttonToPostLogin>
