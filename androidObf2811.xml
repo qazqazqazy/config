@@ -3953,7 +3953,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <nodes>
 <node id="mobile.sberbank.ru">
-<enabledShortcutNotifications>true</enabledShortcutNotifications>
+<enabledShortcutNotifications>false</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
 </pushHistoryRequest>
@@ -4001,7 +4001,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
-<enabledShortcutNotifications>true</enabledShortcutNotifications>
+<enabledShortcutNotifications>false</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
 </pushHistoryRequest>
@@ -4048,7 +4048,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
-<enabledShortcutNotifications>true</enabledShortcutNotifications>
+<enabledShortcutNotifications>false</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
 </pushHistoryRequest>
@@ -4095,7 +4095,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
-<enabledShortcutNotifications>true</enabledShortcutNotifications>
+<enabledShortcutNotifications>false</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
 </pushHistoryRequest>
@@ -4142,7 +4142,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <redesignBunnerTxTPUSuggestion>true</redesignBunnerTxTPUSuggestion>
-<enabledShortcutNotifications>true</enabledShortcutNotifications>
+<enabledShortcutNotifications>false</enabledShortcutNotifications>
 <pushHistoryRequest>
 <version from="9.0" value="true"/>
 </pushHistoryRequest>
