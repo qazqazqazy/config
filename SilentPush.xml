@@ -4322,7 +4322,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newNotificationDesign>true</newNotificationDesign>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
-<KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <scanActivationWithPush>true</scanActivationWithPush>
 <requestPermissionToReadSMS>
 <version from="8.5" value="true"/>
@@ -4367,7 +4366,6 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <updateTokenForegroundService>true</updateTokenForegroundService>
 <showSmsTextInCuteCheque>true</showSmsTextInCuteCheque>
 <newNotificationDesign>true</newNotificationDesign>
-<KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <scanActivationWithPush>true</scanActivationWithPush>
 <showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 <requestPermissionToReadSMS>
