@@ -4429,12 +4429,12 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <nodes>
 <node id="mobile.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<showOperationTypeInTPU>false</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>true</pushPreEnrichment>
@@ -4474,11 +4474,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<showOperationTypeInTPU>false</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
@@ -4518,11 +4518,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<showOperationTypeInTPU>false</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>false</pushPreEnrichment>
@@ -4562,11 +4562,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<showOperationTypeInTPU>false</showOperationTypeInTPU>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>false</alternativePushSettingTexts>
@@ -4606,11 +4606,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<showOperationTypeInTPU>false</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
@@ -4673,12 +4673,12 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>1,2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>true</showOperationTypeInTPU>
+<showOperationTypeInTPU>false</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>true</pushPreEnrichment>
