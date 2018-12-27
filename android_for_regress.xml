@@ -3953,7 +3953,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabledShortcutNotifications>true</enabledShortcutNotifications> 
 <ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -3992,7 +3992,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabledShortcutNotifications>true</enabledShortcutNotifications> 
 <ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -4031,7 +4031,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabledShortcutNotifications>true</enabledShortcutNotifications> 
 <ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -4070,7 +4070,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabledShortcutNotifications>true</enabledShortcutNotifications> 
 <ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType>
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
@@ -4109,7 +4109,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <enabledShortcutNotifications>true</enabledShortcutNotifications> 
 <ShowTPUOperationCategorySignByDesignType>true</ShowTPUOperationCategorySignByDesignType> 
 <excludeNotificationTypesFromBadgeInPreLogin></excludeNotificationTypesFromBadgeInPreLogin>
-<doNotContainTPUInBadgeNewNotificationEntryPoint>true</doNotContainTPUInBadgeNewNotificationEntryPoint>
+<doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
 <doNotShowOldNotificationEntryPoint>false</doNotShowOldNotificationEntryPoint>
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
