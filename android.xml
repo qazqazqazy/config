@@ -4280,7 +4280,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4300,7 +4300,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4320,7 +4320,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4340,7 +4340,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4360,7 +4360,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4380,7 +4380,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4400,7 +4400,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>false</efsMobileBank82>
+<efsMobileBank82>true</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4451,7 +4451,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
+<version from="8.5" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
@@ -4495,7 +4495,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
+<version from="8.5" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
@@ -4539,7 +4539,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
+<version from="8.5" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
@@ -4586,7 +4586,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
+<version from="8.5" value="false"/>
 </showNewAttributesInPushContent>
 <showUniversalPushNotification>
 <version from="8.7" value="true"/>
@@ -4630,7 +4630,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
+<version from="8.5" value="false"/>
 </showNewAttributesInPushContent>
 <showUniversalPushNotification>
 <version from="8.7" value="true"/>
@@ -4695,7 +4695,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="8.5" value="true"/>
+<version from="8.5" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
