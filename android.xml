@@ -4478,7 +4478,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>false</showOperationTypeInTPU>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
@@ -4522,7 +4522,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>false</showOperationTypeInTPU>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>false</pushPreEnrichment>
@@ -4566,7 +4566,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>false</showOperationTypeInTPU>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>false</alternativePushSettingTexts>
@@ -4610,7 +4610,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>false</showOperationTypeInTPU>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
@@ -4678,7 +4678,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>false</showOperationTypeInTPU>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>true</pushPreEnrichment>
@@ -5127,7 +5127,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="TPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разрешенных нодах">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="NodeTPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разных нодах">
 <type>list</type>
