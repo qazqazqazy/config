@@ -4277,10 +4277,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4297,10 +4297,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4317,10 +4317,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4337,10 +4337,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4357,10 +4357,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4377,10 +4377,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4397,10 +4397,10 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
-<efsMobileBank82>true</efsMobileBank82>
+<efsMobileBank82>false</efsMobileBank82>
 <showNotificationWS>true</showNotificationWS>
 <turnOffFullTariffEnabledByVersion>
 <version from="8.4" value="true"/>
@@ -4434,7 +4434,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <showNewNotificationEntryPoint>true</showNewNotificationEntryPoint>
 <showNewNotificationEntryPointWS>true</showNewNotificationEntryPointWS>
 <newFailedOperationDesign>true</newFailedOperationDesign>
-<showOperationTypeInTPU>false</showOperationTypeInTPU>
+<showOperationTypeInTPU>true</showOperationTypeInTPU>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>true</pushPreEnrichment>
@@ -5124,6 +5124,39 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 </nodes>
 <title>Налоги, Штрафы, Пошлины, Бюджетные платежи</title>
+</param>
+<param name="TPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разрешенных нодах">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="NodeTPNDataEnrichment" description="Возможность обогащения данных для ТПУ на разных нодах">
+<type>list</type>
+<nodes>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="194.186.207.23">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+</nodes>
 </param>
 <param name="enableSMSAllowed" description="">
 <type>setting</type>
