@@ -4451,7 +4451,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="10" value="true"/>
+<version from="10" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
@@ -4495,7 +4495,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="10" value="true"/>
+<version from="10" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
@@ -4539,7 +4539,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="10" value="true"/>
+<version from="10" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
@@ -4586,7 +4586,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="10" value="true"/>
+<version from="10" value="false"/>
 </showNewAttributesInPushContent>
 <showUniversalPushNotification>
 <version from="8.7" value="true"/>
@@ -4630,7 +4630,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="10" value="true"/>
+<version from="10" value="false"/>
 </showNewAttributesInPushContent>
 <showUniversalPushNotification>
 <version from="8.7" value="true"/>
@@ -4695,7 +4695,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <version from="8.6" value="true"/>
 </reactivateMainPushNotifications>
 <showNewAttributesInPushContent>
-<version from="10" value="true"/>
+<version from="10" value="false"/>
 </showNewAttributesInPushContent>
 <pushLogoTypeUsing>
 <version from="8.6" value="true"/>
