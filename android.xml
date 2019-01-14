@@ -4428,6 +4428,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <nodes>
 <node id="mobile.sberbank.ru">
+<notificationShowWithOperationType>
+<version from="9.1" value="true"/>
+</notificationShowWithOperationType>
 <pushSkipInitialSync>
 <version from="9.2" value="true"/>
 </pushSkipInitialSync> 
@@ -4476,6 +4479,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
+<notificationShowWithOperationType>
+<version from="9.1" value="true"/>
+</notificationShowWithOperationType>
 <pushSkipInitialSync>
 <version from="9.2" value="true"/>
 </pushSkipInitialSync>
@@ -4523,6 +4529,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
+<notificationShowWithOperationType>
+<version from="9.1" value="true"/>
+</notificationShowWithOperationType> 
 <pushSkipInitialSync>
 <version from="9.2" value="true"/>
 </pushSkipInitialSync> 
@@ -4570,6 +4579,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
+<notificationShowWithOperationType>
+<version from="9.1" value="true"/>
+</notificationShowWithOperationType>
 <pushSkipInitialSync>
 <version from="9.2" value="true"/>
 </pushSkipInitialSync> 
@@ -4617,6 +4629,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
+<notificationShowWithOperationType>
+<version from="9.1" value="true"/>
+</notificationShowWithOperationType> 
 <pushSkipInitialSync>
 <version from="9.2" value="true"/>
 </pushSkipInitialSync> 
@@ -4664,6 +4679,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
 <node id="node4.online.sberbank.ru">
+<notificationShowWithOperationType>
+<version from="9.1" value="true"/>
+</notificationShowWithOperationType>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
 <pushPreEnrichment>false</pushPreEnrichment>
