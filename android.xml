@@ -4424,6 +4424,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </param>
 <param name="PushPermissions" description="Консолидированные включатели для функционала команды Push">
 <type>list</type>
+<operationTypeList>D4,J</operationTypeList>    
 <notificationEntryPointIfNoInternet>true</notificationEntryPointIfNoInternet>
 <KavLightScanIntervalInMinutes>2</KavLightScanIntervalInMinutes>
 <nodes>
