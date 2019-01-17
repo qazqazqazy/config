@@ -1,4 +1,5 @@
-<params>
+<configuration>
+ <params>
 <param name="CreditReportService" description="Отчет о кредитной истории">
 <type>setting</type>
 <enabled>true</enabled><productNavigationBarMod>2<
