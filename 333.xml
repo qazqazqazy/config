@@ -2839,7 +2839,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>3</productNavigationBarMod>
+<productNavigationBarMod>2</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
@@ -6906,7 +6906,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
