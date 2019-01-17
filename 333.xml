@@ -1,8 +1,8 @@
 <configuration>
- <params>
+<params>
 <param name="CreditReportService" description="Отчет о кредитной истории">
 <type>setting</type>
-<enabled>true</enabled><productNavigationBarMod>2<
+<enabled>true</enabled>
 <creditReportServiceTutorialEnabled>true</creditReportServiceTutorialEnabled>
 </param>
 <param name="PriorityCardP2PServiceWrongCardsExclude" description="Исключение карт с истекшим сроком действия из списка карт, которые можно выбрать приоритетной">
@@ -2839,7 +2839,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <arrestInfoService>true</arrestInfoService>
 <FastLoginApp>false</FastLoginApp>
 <PrintAutoSubscriptionCheck>true</PrintAutoSubscriptionCheck>
-<productNavigationBarMod>1</productNavigationBarMod>
+<productNavigationBarMod>3</productNavigationBarMod>
 <IsFromAddrBook>true</IsFromAddrBook>
 <InstantApp>true</InstantApp>
 <InstantAppV2>true</InstantAppV2>
