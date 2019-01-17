@@ -2,7 +2,7 @@
 <params>
 <param name="CreditReportService" description="Отчет о кредитной истории">
 <type>setting</type>
-<enabled>true</enabled>
+xml<enabled>true</enabled>
 <creditReportServiceTutorialEnabled>true</creditReportServiceTutorialEnabled>
 </param>
 <param name="PriorityCardP2PServiceWrongCardsExclude" description="Исключение карт с истекшим сроком действия из списка карт, которые можно выбрать приоритетной">
