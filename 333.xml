@@ -6890,7 +6890,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="notificationStripeHistory" description="">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>true</enabled>
