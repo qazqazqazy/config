@@ -5334,7 +5334,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="ContractListv2.1" description="Версия сервиса ContractList 2.1">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="UfsInsuranceMain" description="Отображение действующих страховых полисов на главной">
 <type>setting</type>
@@ -7422,42 +7422,42 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 Смотрим на параметр amountPickerShowHintPopoverNew с версии 9.6
 -->
 <node id="mobile.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="node0.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="node1.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="node2.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="node3.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="node4.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="greenfield1.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="greenfield2.online.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
@@ -7472,12 +7472,12 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="psinode2.testonline.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
@@ -7883,7 +7883,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <buttonToPostLogin>true</buttonToPostLogin>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
-<NotificationSettingsOwn>true</NotificationSettingsOwn>
+<NotificationSettingsOwn>false</NotificationSettingsOwn>
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <TurnOffOperationPush>true</TurnOffOperationPush>
 <MessagesWithExpired>true</MessagesWithExpired>
@@ -8067,7 +8067,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PlasticCardLifeCycleMessages" description="Информационные сообщения по жизненному циклу карт">
 <type>service</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <nodes>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
@@ -8076,7 +8076,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -8094,7 +8094,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
@@ -8103,7 +8103,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PlasticCardLifeCycleDetailMessages" description="Информационные сообщения по жизненному циклу карт внутри">
 <type>service</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <nodes>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
@@ -8112,7 +8112,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -8130,7 +8130,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
