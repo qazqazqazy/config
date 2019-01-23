@@ -676,10 +676,12 @@
 <buttontextcontinue>Продолжить</buttontextcontinue>
 <buttontexttransfer>Перевести</buttontexttransfer>
 </notification>
-<reasonList>
-<reason id="atm"/>
-<reason id="lost"/>
-</reasonList>
+ <!--
+	<reasonList>
+            	<reason id="atm"/>
+              	<reason id="lost"/>
+            </reasonList> 
+-->
 </param>
 <param name="CardPANRq" description="Определение типов карт для запроса PAN-номера карты">
 <type>list</type>
@@ -781,41 +783,65 @@
 <cardStatementOperations>false</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="node1.online.sberbank.ru">
 <cardStatementOperations>false</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="node2.online.sberbank.ru">
 <cardStatementOperations>false</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="node3.online.sberbank.ru">
 <cardStatementOperations>false</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <cardStatementOperations>true</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="mobile.sberbank.ru">
 <cardStatementOperations>true</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <cardStatementOperations>true</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <cardStatementOperations>true</cardStatementOperations>
 <StatementOperationsLimit>1000</StatementOperationsLimit>
 <cardStatementTutorial>true</cardStatementTutorial>
+<StatementPagination>true</StatementPagination>
+<StatementPaginationSize>200</StatementPaginationSize>
+<StatementPaginationLimit>30</StatementPaginationLimit>
 </node>
 </nodes>
 </param>
@@ -1218,7 +1244,7 @@ The entered ID is already in use in the system. Enter a different value
 <param name="newmarketplace" description="Витрина 7.3.1">
 <type>setting</type>
 <enabled>true</enabled>
-<recommendedEnabled>true</recommendedEnabled>
+<recommendedEnabled>false</recommendedEnabled>
 <urls>
 <url name="marketplace_v1" url="http://sbertech.online/marketplace/config.ios.8.15.xml" version="9.1.0"/>
 <url name="marketplace_v2" url="http://sbertech.online/marketplace/config.ios.9.2.xml" version="9.2.0"/>
@@ -2329,7 +2355,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <selfTransferStorno>false</selfTransferStorno>
 <creditCardAutorepayment>true</creditCardAutorepayment>
 <blockedCardsStatusWay4>true</blockedCardsStatusWay4>
-<governmentServices_actual>false</governmentServices_actual>
+<governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
 <governmentServices>true</governmentServices>
@@ -3494,7 +3520,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
 </node>
-<node id="ift-node4-mp.testonline.sberbank.ru">
+<node id="ift-c-mp.testonline.sberbank.ru">
 <coreQR>true</coreQR>
 <SBTelecom>true</SBTelecom>
 <CreditRating>false</CreditRating>
@@ -3746,8 +3772,8 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/policy.pdf
 <enabled>true</enabled>
 <closeButtonEnabled>true</closeButtonEnabled>
 <version>1</version>
-<title>Откройте вклад</title>
-<description>с повышенной ставкой</description>
+<title>Открыть вклад</title>
+<description>На выгодных условиях</description>
 <backgroundColor>0xF1F3FC</backgroundColor>
 </depositPromoBanner>
 </param>
@@ -5748,11 +5774,11 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="SberIDNewClaims" description="Доработки по отображению списка передаваемых данных">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="SberIDReEntryFragment" description="Включение экрана повторного входа через SBOL">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="SberIdPaymentAndData" description="Включение оплаты/входа через SBOL">
 <type>setting</type>
@@ -6483,6 +6509,21 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <BlockCardAdd>true</BlockCardAdd>
 <CurrencyCardBankDetail>true</CurrencyCardBankDetail>
 </node>
+<node id="msv-node2.testonline.sberbank.ru">
+<SmartSearch>true</SmartSearch>
+<NBAA>true</NBAA>
+<SearchHistory>true</SearchHistory>
+</node>
+<node id="ift-node5.testonline.sberbank.ru">
+<SmartSearch>true</SmartSearch>
+<NBAA>true</NBAA>
+<SearchHistory>true</SearchHistory>
+</node>
+<node id="ift-node5-mp.testonline.sberbank.ru">
+<SmartSearch>true</SmartSearch>
+<NBAA>true</NBAA>
+<SearchHistory>true</SearchHistory>
+</node>
 </nodes>
 </param>
 <param name="InsuranceProducts" description="Продажа страховых продуктов">
@@ -7189,43 +7230,84 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <param name="ConfirmationBiometricsVoice" description="">
 <type>list</type>
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="node1.online.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="node2.online.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="node3.online.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
-</node>
-<node id="194.186.207.23">
-<enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="mobile.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
+<enabledInP2PTransfer>true</enabledInP2PTransfer>
+<enabledInMessenger>true</enabledInMessenger>
+<enabledInInternalPayments>true</enabledInInternalPayments>
+<enabledInPayments>true</enabledInPayments>
 </node>
 </nodes>
 </param>
-<param name="ConfirmationBiometricsFace" description="">
+<param name="biometryAgreementStartPage" description="">
 <type>list</type>
 <enabled>true</enabled>
 <nodes>
@@ -7462,12 +7544,12 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<minorsWarning>false</minorsWarning>
+<minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 </node>
@@ -8067,7 +8149,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PlasticCardLifeCycleMessages" description="Информационные сообщения по жизненному циклу карт">
 <type>service</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <nodes>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
@@ -8076,7 +8158,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -8085,7 +8167,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -8094,7 +8176,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
@@ -8103,7 +8185,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PlasticCardLifeCycleDetailMessages" description="Информационные сообщения по жизненному циклу карт внутри">
 <type>service</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 <nodes>
 <node id="greenfield1.online.sberbank.ru">
 <enabled>true</enabled>
@@ -8112,7 +8194,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="mobile.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -8121,7 +8203,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -8130,7 +8212,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <enabled>true</enabled>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<enabled>false</enabled>
+<enabled>true</enabled>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
@@ -8705,7 +8787,7 @@ https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 <enabled>true</enabled>
 </version>
 <version name="9.6.0">
-<enabled>true</enabled>
+<enabled>false</enabled>
 </version>
 <version name="9.7.0">
 <enabled>true</enabled>
