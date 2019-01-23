@@ -5493,6 +5493,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<description>
 Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -5503,6 +5504,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -7783,8 +7785,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7805,8 +7807,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7827,8 +7829,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7849,8 +7851,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7871,8 +7873,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7893,8 +7895,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7914,8 +7916,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
-					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<NotificationSettingsOwn>false</NotificationSettingsOwn>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7937,8 +7939,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7959,8 +7961,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -7981,8 +7983,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -8003,8 +8005,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -8025,8 +8027,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
@@ -8047,8 +8049,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
-					<TurnOffOperationPush>true</TurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<TurnOffOperationPush>false</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
 					<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
