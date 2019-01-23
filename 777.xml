@@ -666,7 +666,6 @@
 <enabled>true</enabled>
 <cardBlockList>
 <cardBlock id="Visa Classic"/>
-<cardBlock id="MasterCard Mass"/>
 </cardBlockList>
 <notification>
 <title>Перевести остаток средств перед блокировкой?</title>
@@ -676,12 +675,10 @@
 <buttontextcontinue>Продолжить</buttontextcontinue>
 <buttontexttransfer>Перевести</buttontexttransfer>
 </notification>
- <!--
-	<reasonList>
-            	<reason id="atm"/>
-              	<reason id="lost"/>
-            </reasonList> 
--->
+<reasonList>
+<reason id="atm"/>
+<reason id="lost"/>
+</reasonList>
 </param>
 <param name="CardPANRq" description="Определение типов карт для запроса PAN-номера карты">
 <type>list</type>
@@ -2414,6 +2411,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <googleMapsEnabled>false</googleMapsEnabled>
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
+<PrintAutoSubscriptionTutorialCheck>true</PrintAutoSubscriptionTutorialCheck>
 </node>
 <node id="node1.online.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2437,7 +2435,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <governmentServices>true</governmentServices>
 <pensionTransfer>true</pensionTransfer>
 <pensionCertificate>true</pensionCertificate>
-<governmentServices_actual>false</governmentServices_actual>
+<governmentServices_actual>true</governmentServices_actual>
 <pensionTransfer_actual>true</pensionTransfer_actual>
 <pensionCertificate_actual>true</pensionCertificate_actual>
 <pensionRegistration>true</pensionRegistration>
@@ -2590,6 +2588,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <googleMapsEnabled>false</googleMapsEnabled>
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
+<PrintAutoSubscriptionTutorialCheck>true</PrintAutoSubscriptionTutorialCheck>
 </node>
 <node id="node3.online.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2678,6 +2677,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <googleMapsEnabled>false</googleMapsEnabled>
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
+<PrintAutoSubscriptionTutorialCheck>true</PrintAutoSubscriptionTutorialCheck>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2767,6 +2767,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <googleMapsEnabled>true</googleMapsEnabled>
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
+<PrintAutoSubscriptionTutorialCheck>true</PrintAutoSubscriptionTutorialCheck>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <coreQR>true</coreQR>
@@ -2948,6 +2949,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <googleMapsEnabled>false</googleMapsEnabled>
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
+<PrintAutoSubscriptionTutorialCheck>true</PrintAutoSubscriptionTutorialCheck>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <coreQR>true</coreQR>
@@ -3519,6 +3521,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <googleMapsEnabled>false</googleMapsEnabled>
 <messengerFirstLoginEnabled>false</messengerFirstLoginEnabled>
 <authBlockingScreen>true</authBlockingScreen>
+<PrintAutoSubscriptionTutorialCheck>true</PrintAutoSubscriptionTutorialCheck>
 </node>
 <node id="ift-c-mp.testonline.sberbank.ru">
 <coreQR>true</coreQR>
@@ -5774,7 +5777,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="SberIDNewClaims" description="Доработки по отображению списка передаваемых данных">
 <type>setting</type>
-<enabled>false</enabled>
+<enabled>true</enabled>
 </param>
 <param name="SberIDReEntryFragment" description="Включение экрана повторного входа через SBOL">
 <type>setting</type>
