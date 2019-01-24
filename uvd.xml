@@ -21,8 +21,7 @@
 				<node id="mobile.sberbank.ru" description="Стенд ПСИ">
 					<bonusBalance>true</bonusBalance>
 					<dashboard>true</dashboard>
-					<
-					>true</offers>
+					<offers>true</offers>
 					<charityPLSpasibo>true</charityPLSpasibo>
 					<distanceToNearestSalesPoint>true</distanceToNearestSalesPoint>
 					<ClientPrivilegeLevel>true</ClientPrivilegeLevel>
