@@ -7779,7 +7779,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7801,7 +7801,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7823,7 +7823,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7845,7 +7845,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7867,7 +7867,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7889,7 +7889,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7911,7 +7911,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7933,7 +7933,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7955,7 +7955,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7977,7 +7977,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7999,7 +7999,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -8021,7 +8021,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -8043,7 +8043,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -8065,7 +8065,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
