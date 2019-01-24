@@ -1844,7 +1844,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 					<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
 					<PFMUserParams>true</PFMUserParams>
 					<PFMOfferTips>true</PFMOfferTips>
-					<pfmApiVersion>1.30</pfmApiVersion>
+					<pfmApiVersion>1.40</pfmApiVersion>
 					<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
 					<budget3_0Enabled>true</budget3_0Enabled>
 					<pfmDataOnline>true</pfmDataOnline>
@@ -1856,7 +1856,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 					<currentPfmApiVersion description="Устаревший параметр">1.30</currentPfmApiVersion>
 					<PFMUserParams>true</PFMUserParams>
 					<PFMOfferTips>true</PFMOfferTips>
-					<pfmApiVersion>1.30</pfmApiVersion>
+					<pfmApiVersion>1.40</pfmApiVersion>
 					<minAppVersionFromPFMApiVersion>9.1</minAppVersionFromPFMApiVersion>
 					<budget3_0Enabled>true</budget3_0Enabled>
 					<pfmDataOnline>true</pfmDataOnline>
@@ -5339,7 +5339,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 		</param>
 		<param name="ContractListv2.1" description="Версия сервиса ContractList 2.1">
 			<type>setting</type>
-			<enabled>true</enabled>
+			<enabled>false</enabled>
 		</param>
 		<param name="UfsInsuranceMain" description="Отображение действующих страховых полисов на главной">
 			<type>setting</type>
@@ -6886,7 +6886,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<logotypesInOperationDetails>true</logotypesInOperationDetails>
 					<arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 					<mapInOperationDetails>true</mapInOperationDetails>
-					<advertisementInHistoryList>true</advertisementInHistoryList>
+					<advertisementInHistoryList>false</advertisementInHistoryList>
 					<extEpsPaymentOperation>true</extEpsPaymentOperation>
 				</node>
 				<node id="ift-node1-mp.testonline.sberbank.ru">
@@ -6906,7 +6906,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<logotypesInOperationDetails>true</logotypesInOperationDetails>
 					<arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 					<mapInOperationDetails>true</mapInOperationDetails>
-					<advertisementInHistoryList>true</advertisementInHistoryList>
+					<advertisementInHistoryList>false</advertisementInHistoryList>
 					<extEpsPaymentOperation>true</extEpsPaymentOperation>
 				</node>
 				<node id="ift-node2-mp.testonline.sberbank.ru">
@@ -6926,7 +6926,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<logotypesInOperationDetails>true</logotypesInOperationDetails>
 					<arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 					<mapInOperationDetails>true</mapInOperationDetails>
-					<advertisementInHistoryList>true</advertisementInHistoryList>
+					<advertisementInHistoryList>false</advertisementInHistoryList>
 					<extEpsPaymentOperation>true</extEpsPaymentOperation>
 				</node>
 				<node id="ift-node5-mp.testonline.sberbank.ru">
@@ -6946,7 +6946,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<logotypesInOperationDetails>true</logotypesInOperationDetails>
 					<arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 					<mapInOperationDetails>true</mapInOperationDetails>
-					<advertisementInHistoryList>true</advertisementInHistoryList>
+					<advertisementInHistoryList>false</advertisementInHistoryList>
 					<extEpsPaymentOperation>true</extEpsPaymentOperation>
 				</node>
 				<node id="10.21.152.7">
@@ -7779,7 +7779,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7801,7 +7801,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7823,7 +7823,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7845,7 +7845,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7867,7 +7867,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7889,7 +7889,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7911,7 +7911,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7933,7 +7933,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7954,8 +7954,8 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<buttonToPostLogin>true</buttonToPostLogin>
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
-					<NotificationSettingsOwn>false</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<NotificationSettingsOwn>true</NotificationSettingsOwn>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7977,7 +7977,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -7999,7 +7999,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -8021,7 +8021,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -8043,7 +8043,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
@@ -8065,7 +8065,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 					<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 					<MFMSMessageRequestType>2</MFMSMessageRequestType>
 					<NotificationSettingsOwn>true</NotificationSettingsOwn>
-					<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+					<autoTurnOffOperationPush>false</autoTurnOffOperationPush>
 					<TurnOffOperationPush>true</TurnOffOperationPush>
 					<MessagesWithExpired>true</MessagesWithExpired>
 					<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
