@@ -4097,7 +4097,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 		</param>
 		<param name="offersAndStories" description="Предложения продуктов и истории на витринах продаж">
 			<type>list</type>
-			<enabled>true</enabled>
+			<enabled>false</enabled>
 			<nodes>
 				<node id="ift-node1.testonline.sberbank.ru">
 					<enabled>true</enabled>
