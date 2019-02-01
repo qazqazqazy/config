@@ -4667,7 +4667,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 					<scanActivationWithPush>true</scanActivationWithPush>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.3" value="false"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
