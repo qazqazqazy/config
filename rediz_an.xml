@@ -2025,7 +2025,7 @@ The entered ID is already in use in the system. Enter a different value
 					<governmentServices>true</governmentServices>
 					<pensionTransfer_actual>true</pensionTransfer_actual>
 					<pensionCertificate>true</pensionCertificate>
-					<governmentAnimationSearching>false</governmentAnimationSearching>
+					<governmentAnimationSearching>true</governmentAnimationSearching>
 					<criminalRecord>true</criminalRecord>
 					<UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
 					<LoanDetailInfo>true</LoanDetailInfo>
@@ -2221,7 +2221,7 @@ The entered ID is already in use in the system. Enter a different value
 					<governmentServices>true</governmentServices>
 					<pensionTransfer_actual>true</pensionTransfer_actual>
 					<pensionCertificate>true</pensionCertificate>
-					<governmentAnimationSearching>true</governmentAnimationSearching>
+					<governmentAnimationSearching>false</governmentAnimationSearching>
 					<criminalRecord>true</criminalRecord>
 					<UFSHost>ift.testefs.sberbank.ru:443</UFSHost>
 					<LoanDetailInfo>true</LoanDetailInfo>
@@ -4638,6 +4638,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 			<type>list</type>
 			<enabled>true</enabled>
 			<restEnabled>true</restEnabled>
+			<pushOfferOnLockScreen>true</pushOfferOnLockScreen>
 			<confirmURL>
 https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOffer
 </confirmURL>
@@ -4666,6 +4667,9 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 					<scanActivationWithPush>true</scanActivationWithPush>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
 						<version from="9.3" value="true"/>
 					</notificationDesign_2019_01>
@@ -4722,8 +4726,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<newNotificationDesign>true</newNotificationDesign>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 					<scanActivationWithPush>true</scanActivationWithPush>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
@@ -4778,8 +4785,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<newNotificationDesign>true</newNotificationDesign>
 					<scanActivationWithPush>true</scanActivationWithPush>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
@@ -4834,8 +4844,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<newNotificationDesign>true</newNotificationDesign>
 					<scanActivationWithPush>true</scanActivationWithPush>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
@@ -4890,8 +4903,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<newNotificationDesign>true</newNotificationDesign>
 					<scanActivationWithPush>true</scanActivationWithPush>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
@@ -4937,8 +4953,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<updateTokenForegroundService>true</updateTokenForegroundService>
 					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 					<scanActivationWithPush>true</scanActivationWithPush>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
@@ -4981,8 +5000,11 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 					<newNotificationDesign>true</newNotificationDesign>
 					<showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 					<scanActivationWithPush>true</scanActivationWithPush>
+					<pushSkipInitialSync>
+						<version from="9.2" value="true"/>
+					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.2" value="false"/>
+						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
@@ -5810,6 +5832,7 @@ https: //nginx-and.ift-node5.testonline.sberbank.ru/
 					<description>
 Нажимая кнопку "Рассчитать", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -5820,6 +5843,7 @@ https: //nginx-and.ift-node5.testonline.sberbank.ru/
 					<description>
 Нажимая кнопку "Оформить", вы соглашаетесь с условиями
 
+						
 						<a>ПАО Сбербанк</a>
 					</description>
 				</service>
@@ -7057,7 +7081,7 @@ https: //nginx-and.ift-node5.testonline.sberbank.ru/
 				</node>
 			</nodes>
 		</param>
-		<param name="biometryAgreementOnMain" description="Включает/выключает функционал сбор согласия на биометрию на главной экране">
+		<param name="BiometricsAgreementStartPage" description="Включает/выключает функционал сбор согласия на биометрию на главной экране">
 			<type>list</type>
 			<enabled>true</enabled>
 			<showTutorial>true</showTutorial>
@@ -7168,12 +7192,12 @@ https: //nginx-and.ift-node5.testonline.sberbank.ru/
 				<node id="194.186.207.23">
 					<enabled>true</enabled>
 					<enabledInDialogs>true</enabledInDialogs>
-					<keepMessageUntilConfirm>false</keepMessageUntilConfirm>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
 				</node>
 				<node id="mobile.sberbank.ru">
 					<enabled>true</enabled>
 					<enabledInDialogs>true</enabledInDialogs>
-					<keepMessageUntilConfirm>false</keepMessageUntilConfirm>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
 				</node>
 				<node id="ift-node1.testonline.sberbank.ru">
 					<enabled>true</enabled>
@@ -7197,4 +7221,1408 @@ https: //nginx-and.ift-node5.testonline.sberbank.ru/
 				</node>
 				<node id="psinode2.testonline.sberbank.ru">
 					<enabled>true</enabled>
-					<enabledInDialogs>true</enabledInDialogs
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<enabled>true</enabled>
+					<enabledInDialogs>true</enabledInDialogs>
+					<keepMessageUntilConfirm>true</keepMessageUntilConfirm>
+				</node>
+			</nodes>
+		</param>
+		<param name="nativeAppsCheck" description="Валидация приложения">
+			<type>list</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="LoanNavigationScreen" description="Разводной экран для кредитных продуктов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="MAppDebitCardNegativeBalance" description="Почему минус на дебетовой карте">
+			<type>service</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="CurrencyCardBankDetail" description="Валютные реквизиты карты">
+			<type>service</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node3.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node4.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node3-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node4-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+			<usdbanksdetail swift="IRVTUS3N" receivername="The Bank of New York Mellon, New York"/>
+			<eurobanksdetail swift="DEUTDEFF" receivername="DEUTSCHE BANK AG, Frankfurt am Main"/>
+		</param>
+		<param name="PriorityCardP2PService" description="Установка приоритетной карты для зачисления P2P Переводов по НМТ">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="PriorityCardP2PServiceTutorial" description="Туториал для приоритетной карты">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="MAppNewBlockingCardProcess" description="Обновленный процесс блокировки карт">
+			<type>service</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="VoiceControl" description="Голосовое управление в мобильном приложении">
+			<type>list</type>
+			<enabled>true</enabled>
+			<CountRepeat>3</CountRepeat>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="194.186.207.23">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<voiceInSmartSearch>true</voiceInSmartSearch>
+				</node>
+			</nodes>
+		</param>
+		<param name="interTransfer" description="Перевод для получения наличных в Western Union">
+			<type>list</type>
+			<enabled>true</enabled>
+			<serviceProviders>
+				<serviceProvider name="Western Union" visibleName="Western Union">
+					<nodes>
+						<node id="ift-node1-mp.testonline.sberbank.ru">
+							<targetBilling>344</targetBilling>
+							<targetProvider>623561</targetProvider>
+							<targetService>623561</targetService>
+						</node>
+						<node id="mobile.sberbank.ru">
+							<targetBilling>344</targetBilling>
+							<targetProvider>688869</targetProvider>
+							<targetService>688869</targetService>
+						</node>
+					</nodes>
+				</serviceProvider>
+			</serviceProviders>
+			<!-- Параметр link доступен только для Релиза 8.7 -->
+			<link>
+https://test.stat.online.sberbank.ru/WESTERNUNION/oferta_western_union.pdf
+</link>
+			<!-- Параметры ниже актуальны, начиная с Релиза 8.8 -->
+			<!--
+Параметр showTutorial отвечает за доступность экрана Промо при входе в приложение
+-->
+			<showTutorial>true</showTutorial>
+			<!--
+Параметр WUTutorial отвечает за доступность и количество показов экрана Туториал при входе в операцию
+-->
+			<WUTutorial description="Количество отображений туториала">
+				<enabled>true</enabled>
+				<countTutorial>3</countTutorial>
+			</WUTutorial>
+			<links>
+				<link name="additional">https://www.sberbank.ru/ru/person/remittance</link>
+				<link name="offer">
+https://test.stat.online.sberbank.ru/WESTERNUNION/oferta_western_union.pdf
+</link>
+			</links>
+			<isShortFraudScreen>true</isShortFraudScreen>
+			<isLongFraudScreen>false</isLongFraudScreen>
+		</param>
+		<param name="interTransferKyrgyzstanToCard" description="Перевод на карту в КБ Кыргызстан">
+			<type>list</type>
+			<enabled>true</enabled>
+			<serviceProviders>
+				<serviceProvider name="" visibleName="">
+					<nodes>
+						<node id="ift-node1-mp.testonline.sberbank.ru">
+							<targetBilling>344</targetBilling>
+							<targetProvider/>
+							<targetService/>
+						</node>
+						<node id="mobile.sberbank.ru">
+							<targetBilling>344</targetBilling>
+							<targetProvider/>
+							<targetService/>
+						</node>
+					</nodes>
+				</serviceProvider>
+			</serviceProviders>
+		</param>
+		<param name="EribStatePaymentShortCuts" description="Каталог бюджетных платежей - быстрый доступ к популярным услугам">
+			<type>list</type>
+			<shortcuts>
+				<shortcut>
+					<title>Штрафы ГИБДД</title>
+					<icon>
+https://stat.online.sberbank.ru/PhizIC-res/logos/PU/7707089101.jpg
+</icon>
+					<nodes>
+						<node id="ift-node1-mp.testonline.sberbank.ru">
+							<catalogID>624234</catalogID>
+						</node>
+						<node id="ift-node2-mp.testonline.sberbank.ru">
+							<catalogID>623567</catalogID>
+						</node>
+						<node id="ift-node1.testonline.sberbank.ru">
+							<catalogID>624234</catalogID>
+						</node>
+						<node id="ift-node2.testonline.sberbank.ru">
+							<catalogID>623567</catalogID>
+						</node>
+					</nodes>
+				</shortcut>
+				<shortcut>
+					<title>Налоги</title>
+					<icon>
+https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f62251_38347.jpg
+</icon>
+					<nodes>
+						<node id="ift-node1-mp.testonline.sberbank.ru">
+							<catalogID>617638</catalogID>
+						</node>
+						<node id="ift-node2-mp.testonline.sberbank.ru">
+							<catalogID>615397</catalogID>
+						</node>
+						<node id="ift-node1.testonline.sberbank.ru">
+							<catalogID>617638</catalogID>
+						</node>
+						<node id="ift-node2.testonline.sberbank.ru">
+							<catalogID>615397</catalogID>
+						</node>
+					</nodes>
+				</shortcut>
+			</shortcuts>
+		</param>
+		<param name="a2aOverseasTransferToWesternUnion" description="Перевод денежных средств за границу через Western Union">
+			<type>list</type>
+			<enabled>true</enabled>
+			<AgreementLink>
+https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
+</AgreementLink>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>false</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>false</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>false</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>false</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>false</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+				<node id="10.21.152.7">
+					<enabled>true</enabled>
+					<INNWU>7727067410</INNWU>
+				</node>
+			</nodes>
+		</param>
+		<param name="sberbankPremier" description="Включает/выключает функционал Дистанционного маркирования в канал Сбербанк Премьер">
+			<type>list</type>
+			<enabled>true</enabled>
+			<nodes>
+				<!--
+ {successScreenDeeplink} - диплинк на экран успеха при регистрации в Сбербанк Премьер
+-->
+				<!--
+ {distanceMarkingMapDeeplink} - диплинк на экран карт с выбором премиального отделения для маркирования 
+-->
+				<node id="mobile.sberbank.ru" description="Стенд ПСИ">
+					<successScreenDeeplink>true</successScreenDeeplink>
+					<distanceMarkingMapDeeplink>true</distanceMarkingMapDeeplink>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru" description="Стенд ИФТ блок 1">
+					<successScreenDeeplink>true</successScreenDeeplink>
+					<distanceMarkingMapDeeplink>true</distanceMarkingMapDeeplink>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru" description="Стенд ИФТ блок 2">
+					<successScreenDeeplink>true</successScreenDeeplink>
+					<distanceMarkingMapDeeplink>true</distanceMarkingMapDeeplink>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 1 (мобильный)">
+					<successScreenDeeplink>true</successScreenDeeplink>
+					<distanceMarkingMapDeeplink>true</distanceMarkingMapDeeplink>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 2 (мобильный)">
+					<successScreenDeeplink>true</successScreenDeeplink>
+					<distanceMarkingMapDeeplink>true</distanceMarkingMapDeeplink>
+				</node>
+			</nodes>
+		</param>
+		<param name="simpleRegistration" description="Использовать вход в МП по номеру карты, вместо входа по логину">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="Payments" description="Платежи в мобильном приложении">
+			<type>list</type>
+			<paymentsDeeplinkQR>true</paymentsDeeplinkQR>
+			<paymentsTransactionEducationEnabled>true</paymentsTransactionEducationEnabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="194.186.207.23">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<paymentsVerifyUserPhoneNumber>true</paymentsVerifyUserPhoneNumber>
+					<paymentCertificate>true</paymentCertificate>
+				</node>
+			</nodes>
+		</param>
+		<param name="PromoCodeActivation" description="Рубильник функционала активации промокодов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="PromoRateAccountOpening" description="Рубильник функционала открытия вклада с промо ставкой">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="OpenAccountImprovementsPack1" description="Рубильник функционала пакет изменений 1 по открытию вкладов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="DeeplinkForSpecificDeposit" description="Рубильник поддержки параметров depositType и depositGroup в диплинке на открытие вклада">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="MessengerBeruGiftcard" description="Сертификаты Беру в диалогах">
+			<type>list</type>
+			<sendVersions>
+				<version name="9.0.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.1.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.2.0">
+					<enabled>true</enabled>
+				</version>
+			</sendVersions>
+			<receiveVersions>
+				<version name="9.0.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.1.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.2.0">
+					<enabled>true</enabled>
+				</version>
+			</receiveVersions>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>684391</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>684391</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>500501445</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>500500795</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>500495145</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550533493</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550533493</providerID>
+					<serviceID>486042900175</serviceID>
+				</node>
+				<node id="194.186.207.23">
+					<billingID>284</billingID>
+					<providerID>635832</providerID>
+					<serviceID>635832</serviceID>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623383</providerID>
+					<serviceID>623383</serviceID>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623383</providerID>
+					<serviceID>623383</serviceID>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623383</providerID>
+					<serviceID>623383</serviceID>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623383</providerID>
+					<serviceID>623383</serviceID>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>688848</providerID>
+					<serviceID>688848</serviceID>
+				</node>
+			</nodes>
+		</param>
+		<param name="MessengerLitresGiftcard" description="Сертификаты ЛитРес в диалогах">
+			<type>list</type>
+			<sendVersions>
+				<version name="9.0.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.1.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.2.0">
+					<enabled>true</enabled>
+				</version>
+			</sendVersions>
+			<receiveVersions>
+				<version name="9.0.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.1.0">
+					<enabled>true</enabled>
+				</version>
+				<version name="9.2.0">
+					<enabled>true</enabled>
+				</version>
+			</receiveVersions>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<billingID>284</billingID>
+					<providerID>550538129</providerID>
+					<serviceID>550538129</serviceID>
+					<accountEribFieldName>S503789069614A503789059641</accountEribFieldName>
+					<textEribFieldName>S503789069614A503789062082</textEribFieldName>
+					<dateEribFieldName>S503789069614A503789062597</dateEribFieldName>
+				</node>
+				<node id="194.186.207.23">
+					<billingID>344</billingID>
+					<providerID>688927</providerID>
+					<serviceID>688927</serviceID>
+					<accountEribFieldName>S357407913386A357902514918</accountEribFieldName>
+					<textEribFieldName>S357407913386A357902514945</textEribFieldName>
+					<dateEribFieldName>S357407913386A357902514947</dateEribFieldName>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623567</providerID>
+					<serviceID>623567</serviceID>
+					<accountEribFieldName>S202108599547A190216781206</accountEribFieldName>
+					<textEribFieldName>S202108599547A190216781214</textEribFieldName>
+					<dateEribFieldName>S202108599547A190216781217</dateEribFieldName>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623567</providerID>
+					<serviceID>623567</serviceID>
+					<accountEribFieldName>S202108599547A190216781206</accountEribFieldName>
+					<textEribFieldName>S202108599547A190216781214</textEribFieldName>
+					<dateEribFieldName>S202108599547A190216781217</dateEribFieldName>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623567</providerID>
+					<serviceID>623567</serviceID>
+					<accountEribFieldName>S202108599547A190216781206</accountEribFieldName>
+					<textEribFieldName>S202108599547A190216781214</textEribFieldName>
+					<dateEribFieldName>S202108599547A190216781217</dateEribFieldName>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>623567</providerID>
+					<serviceID>623567</serviceID>
+					<accountEribFieldName>S202108599547A190216781206</accountEribFieldName>
+					<textEribFieldName>S202108599547A190216781214</textEribFieldName>
+					<dateEribFieldName>S202108599547A190216781217</dateEribFieldName>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<billingID>344</billingID>
+					<providerID>688927</providerID>
+					<serviceID>688927</serviceID>
+					<accountEribFieldName>S357407913386A357902514918</accountEribFieldName>
+					<textEribFieldName>S357407913386A357902514945</textEribFieldName>
+					<dateEribFieldName>S357407913386A357902514947</dateEribFieldName>
+				</node>
+			</nodes>
+		</param>
+		<param name="MessengerGiftsTab" description="Рубильник на таб Подарки в Диалогах">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="PrintAutoSubscriptionCheck" description="Печать чека по совершённому автоплатежу">
+			<type>setting</type>
+			<enabled>true</enabled>
+			<showTutorial>true</showTutorial>
+		</param>
+		<param name="RecommendedPayments" description="Карточка поставщика услуг">
+			<type>list</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<paymentService91>false</paymentService91>
+					<debtService91>false</debtService91>
+					<paymentsServiceTutorial91>false</paymentsServiceTutorial91>
+					<debtServiceTutorial91>false</debtServiceTutorial91>
+					<editNameService>false</editNameService>
+					<hideService>false</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<paymentService91>false</paymentService91>
+					<debtService91>false</debtService91>
+					<paymentsServiceTutorial91>false</paymentsServiceTutorial91>
+					<debtServiceTutorial91>false</debtServiceTutorial91>
+					<editNameService>false</editNameService>
+					<hideService>false</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<paymentService91>false</paymentService91>
+					<debtService91>false</debtService91>
+					<paymentsServiceTutorial91>false</paymentsServiceTutorial91>
+					<debtServiceTutorial91>false</debtServiceTutorial91>
+					<editNameService>false</editNameService>
+					<hideService>false</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<paymentService91>false</paymentService91>
+					<debtService91>false</debtService91>
+					<paymentsServiceTutorial91>false</paymentsServiceTutorial91>
+					<debtServiceTutorial91>false</debtServiceTutorial91>
+					<editNameService>false</editNameService>
+					<hideService>false</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>false</editNameService>
+					<hideService>false</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>true</editServiceTutorial>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>true</editServiceTutorial>
+				</node>
+				<node id="ift-node4.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>true</editServiceTutorial>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>true</editServiceTutorial>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>true</editServiceTutorial>
+				</node>
+				<node id="ift-node4-mp.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>true</editServiceTutorial>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+				<node id="194.186.207.23">
+					<paymentService91>true</paymentService91>
+					<debtService91>true</debtService91>
+					<paymentsServiceTutorial91>true</paymentsServiceTutorial91>
+					<debtServiceTutorial91>true</debtServiceTutorial91>
+					<editNameService>true</editNameService>
+					<hideService>true</hideService>
+					<editServiceTutorial>false</editServiceTutorial>
+				</node>
+			</nodes>
+		</param>
+		<param name="AutoPayment" description="Функционал Автоплатежей">
+			<type>setting</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<createSequenceTutorialEnabled>false</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>false</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<createSequenceTutorialEnabled>false</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>false</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<createSequenceTutorialEnabled>false</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>false</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<createSequenceTutorialEnabled>false</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>false</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="ift-node4.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="ift-node4-mp.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+				<node id="194.186.207.23">
+					<createSequenceTutorialEnabled>true</createSequenceTutorialEnabled>
+					<createSequenceOnBoardingEnabled>true</createSequenceOnBoardingEnabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="authTextsForCodeSmsAndr">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="regNotSberbankCardError">
+			<type>setting</type>
+			<enabled>false</enabled>
+		</param>
+		<param name="RurPaymentAddressInnExclude" description="Исключение Адреса и ИНН из перевода Клиенту">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="PremierMapsGlobal" description="Включает/выключает функционал отображения премиальных отделений на карте">
+			<type>list</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="mobile.sberbank.ru" description="Стенд ПСИ">
+					<premierMaps>true</premierMaps>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru" description="Стенд ИФТ блок 1">
+					<premierMaps>true</premierMaps>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru" description="Стенд ИФТ блок 2">
+					<premierMaps>true</premierMaps>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 1 (мобильный)">
+					<premierMaps>true</premierMaps>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 2 (мобильный)">
+					<premierMaps>true</premierMaps>
+				</node>
+			</nodes>
+		</param>
+		<param name="geoservicehost" description="Настройка URL гео-сервисов для блоков">
+			<type>list</type>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<geoHost>https://geo1.online.sberbank.ru/</geoHost>
+				</node>
+			</nodes>
+		</param>
+		<param name="TelecomHost" description="Возвращает хост СберМобайл в завизимости от ноды">
+			<type>list</type>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="194.186.207.23">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<telecomHost>https://api-test.sberbank-tele.com</telecomHost>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<telecomHost>https://api.sberbank-tele.com</telecomHost>
+				</node>
+			</nodes>
+		</param>
+		<param name="showTariffsLink" description="Пункт меню Тарифы, Лимиты и Сроки">
+			<type>setting</type>
+			<enabled>true</enabled>
+			<link>
+https://stat.online.sberbank.ru/PhizIC-res/mapicfg/tariffs.xml
+</link>
+			<warningTextEnabled>true</warningTextEnabled>
+			<warningText>
+Для операций в Сбербанке Онлайн. Полный перечень тарифов, лимитов и сроков осуществления переводов и платежей вы можете найти на сайте [www.sberbank.ru](https://www.sberbank.ru).
+</warningText>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru" description="Стенд ИФТ блок 1 (мобильный)">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru" description="Стенд ПСИ">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="TelecomLimits" description="Отвечает за отображение вкладки с лимитами">
+			<type>list</type>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="node4.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="kavLightScanPeriodWindowInHours">
+			<kavLightScanPeriodWindowInHours>3</kavLightScanPeriodWindowInHours>
+		</param>
+		<param name="ABTesting" description="АБ-тесты">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="promoterCode" description="Код промоутера в прелогин зоне">
+			<enabled>true</enabled>
+			<enabledRegistration>true</enabledRegistration>
+			<enabledAuthentication>true</enabledAuthentication>
+		</param>
+		<param name="forceUpdate" description="Уведомление о принудительном обновлении">
+			<enabled>true</enabled>
+			<lastToggleVersion>8.7</lastToggleVersion>
+			<lastToggleDate>31.12.2019</lastToggleDate>
+			<lastToggleSDK>16</lastToggleSDK>
+			<warningTextPeriod>7</warningTextPeriod>
+			<warningText>
+Пожалуйста, обновите мобильное приложение. В каждой версии мы добавляем новые полезные функции и улучшаем надежность приложения.
+</warningText>
+			<errorUpdateText>
+Эта версия приложения более не поддерживается. Обновите приложение, чтобы продолжить работу.
+</errorUpdateText>
+			<errorText>
+Приложение не может работать на вашем устройстве. Рекомендуем обновить версию операционной системы.
+</errorText>
+		</param>
+		<param name="ChangeVisibilityProduct" description="Частичное скрытие продуктов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="gsHideDeposits" description="Полное скрытие вкладов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="gsHideIMs" description="Полное скрытие металлического счета">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="gsHideProducts" description="Полное скрытие карт, кредитов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="PartVisibilityTutorial" description="Обучение частичному скрытию продуктов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="TotalVisibilityTutorial" description="Обучение полному скрытию продуктов">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="ChangeAuthType" description="Изменение режима аутентификации">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="AuthTutorial" description="Обучение изменению режима аутентификации">
+			<type>setting</type>
+			<enabled>true</enabled>
+		</param>
+		<param name="SelfEmployed" description="Сервис самозанятые">
+			<type>service</type>
+			<enabled>true</enabled>
+			<assignService>true</assignService>
+			<unassignService>true</unassignService>
+			<incomesService>true</incomesService>
+		</param>
+		<param name="AccountCardDetail" description="Отдельная вкладка для реквизитов карточного счета">
+			<type>service</type>
+			<enabled>false</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node3.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node4.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node3-mp.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node4-mp.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>false</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="TariffDebitCard" description="Тариф карты">
+			<type>service</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="mobile.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode2.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="psinode1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+		<param name="P2POverseasCardTransfer" description="Международный карточный перевод">
+			<type>list</type>
+			<enabled>true</enabled>
+			<nodes>
+				<node id="node0.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="node1.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="node2.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="node3.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="greenfield1.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="greenfield2.online.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="194.186.207.23">
+					<enabled>true</enabled>
+				</node>
+				<node id="mobile.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node1.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="ift-node1-mp.testonline.sberbank.ru">
+					<enabled>true</enabled>
+				</node>
+				<node id="ift-node2-mp.testonline.sberbank.ru">
+					<enabled>false</enabled>
+				</node>
+				<node id="10.21.152.7">
+					<enabled>true</enabled>
+				</node>
+			</nodes>
+		</param>
+	</params>
+</configuration>
