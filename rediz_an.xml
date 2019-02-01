@@ -4671,7 +4671,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</pushSkipInitialSync>
 					<notificationDesign_2019_01>
-						<version from="9.3" value="true"/>
+						<version from="9.4" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
 						<version from="9.2" value="true"/>
