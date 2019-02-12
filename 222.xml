@@ -4,7 +4,7 @@
 <type>setting</type>
 <enabled>true</enabled>
 <creditReportServiceTutorialEnabled>true</creditReportServiceTutorialEnabled>
-<creditReportServiceGetpdfEnabled>true</creditReportServiceGetpdfEnabled>
+<creditReportServiceGetpdfEnabled >true</creditReportServiceGetpdfEnabled>
 </param>
 <param name="PriorityCardP2PServiceWrongCardsExclude" description="Исключение карт с истекшим сроком действия из списка карт, которые можно выбрать приоритетной">
 <type>setting</type>
@@ -8195,6 +8195,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <enabled>true</enabled>
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
+ <pushHistoryHeadBatchSize>30</pushHistoryHeadBatchSize> 
+<pushHistoryScrollBatchSize>15</pushHistoryScrollBatchSize>
 <type>list</type>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
@@ -8404,6 +8406,8 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <showAlertBeforeTPUDisable>true</showAlertBeforeTPUDisable>
 <showUniversalPushNotification>true</showUniversalPushNotification>
 <getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
+ <forcedHistoryQuery>false</forcedHistoryQuery> 
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory> 
 <nativePushProcessingEnabled>true</nativePushProcessingEnabled>
 <webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
 <cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
@@ -8906,7 +8910,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 </param>
 <param name="MobileBankSettings" description="Настройки для подключения МБ в МП">
 <type>list</type>
-<MobileBankColdPeriodDuration>СМС-пароли отключатся на несколько дней</MobileBankColdPeriodDuration>
+<MobileBankColdPeriodDuration>7 дней</MobileBankColdPeriodDuration>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <mobileBankFromSetting>true</mobileBankFromSetting>
