@@ -8966,7 +8966,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <MobileBankColdPeriodDuration>7 дней</MobileBankColdPeriodDuration>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -8974,7 +8974,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="greenfield1.online.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -8982,7 +8982,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -8990,7 +8990,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="mobile.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -8998,7 +8998,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="194.186.207.23">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -9006,7 +9006,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -9014,7 +9014,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -9022,7 +9022,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
@@ -9030,7 +9030,7 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <ShowNotificationTerm>true</ShowNotificationTerm>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<mobileBankFromSetting>false</mobileBankFromSetting>
+<mobileBankFromSetting>true</mobileBankFromSetting>
 <mobileBankFromCardSetting>true</mobileBankFromCardSetting>
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
