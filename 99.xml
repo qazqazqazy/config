@@ -1,3 +1,4 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <configuration>
 <params>
 <param name="CreditReportService" description="Отчет о кредитной истории">
@@ -244,7 +245,7 @@
 <enabled>true</enabled>
 <paymentsServiceTutorial>false</paymentsServiceTutorial>
 <debtServiceTutorial>false</debtServiceTutorial>
-<paymentService>false</paymentService>
+<paymentService>true</paymentService>
 <paymentService_v96>true</paymentService_v96>
 <debtService>true</debtService>
 <debtRemoveService>true</debtRemoveService>
@@ -264,11 +265,11 @@
 <enabled>true</enabled>
 <paymentsServiceTutorial>false</paymentsServiceTutorial>
 <debtServiceTutorial>false</debtServiceTutorial>
-<paymentService>false</paymentService>
+<paymentService>true</paymentService>
 <paymentService_v96>true</paymentService_v96>
 <debtService>true</debtService>
 <debtRemoveService>true</debtRemoveService>
-<debtRenameService>true</debtRenameService>
+<debtRenameService>false</debtRenameService>
 </node>
 <node id="ift-node3.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -374,7 +375,7 @@
 <enabled>false</enabled>
 <paymentsServiceTutorial>false</paymentsServiceTutorial>
 <debtServiceTutorial>false</debtServiceTutorial>
-<paymentService>false</paymentService>
+<paymentService>true</paymentService>
 <paymentService_v96>false</paymentService_v96>
 <debtService>false</debtService>
 <debtRemoveService>false</debtRemoveService>
@@ -2358,20 +2359,20 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <param name="900Permissions" description="">
 <type>list</type>
 <pushAlertTimeInterval>86400</pushAlertTimeInterval>
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <nodes>
 <node id="ift-node1.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <pushAlertEnabled>true</pushAlertEnabled>
 </node>
 <node id="node0.online.sberbank.ru">
@@ -2388,7 +2389,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
@@ -2398,7 +2399,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 </node>
 <node id="mobile.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 </node>
 </nodes>
 </param>
@@ -4455,7 +4456,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <marketplaceStories>
@@ -4539,7 +4540,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <marketplaceStories>
@@ -4622,7 +4623,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <marketplaceStories>
@@ -4705,7 +4706,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <marketplaceStories>
@@ -4788,7 +4789,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>false</enabled>
-<limit>5</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -4855,7 +4856,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -4922,7 +4923,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -4989,7 +4990,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -5056,7 +5057,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -5123,7 +5124,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -5190,7 +5191,7 @@ http://lightapp.ru/config/salestools/create_target/index.html
 </mainScreenStories>
 <mainScreenTutorial>
 <enabled>true</enabled>
-<limit>3</limit>
+<limit>10</limit>
 <backendTipsBroker>false</backendTipsBroker>
 </mainScreenTutorial>
 <paymentsHistoryScreen>
@@ -5303,7 +5304,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </service>
 <service name="ufs7.kladr.v1">
 <host>
-https: //nginx-ios.ift-node5.testonline.sberbank.ru/
+https://nginx-ios.ift-node5.testonline.sberbank.ru/
 </host>
 <path>/loan-suggestion/services/rs/Suggestions.KLADR</path>
 </service>
@@ -5482,7 +5483,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="StaticSourceMerchantPics" description="статресурс для логотипов">
 <type>source</type>
-<link>https://pfm-stat.online.sberbank.ru/PFM/logos/</link>
+<link>https://pfm.RU</link>
 </param>
 <param name="CarLoanRequest" description="Заявка на автокредит с версии 9.3">
 <type>setting</type>
@@ -6909,8 +6910,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="psinode2.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -6926,8 +6926,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -6943,8 +6942,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="194.186.207.23">
 <enabled>true</enabled>
@@ -6960,8 +6958,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -6977,8 +6974,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<DoubleAddPhoneProfile>true</DoubleAddPhoneProfile>
-<DoubleAddEmailProfile>true</DoubleAddEmailProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 <CashingPersonalDataProfile>false</CashingPersonalDataProfile>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
@@ -6995,8 +6991,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="ift-node2.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -7012,8 +7007,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -7029,8 +7023,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -7046,8 +7039,7 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <PhoneNumberEditProfile>true</PhoneNumberEditProfile>
 <SnilsEditProfile>false</SnilsEditProfile>
 <InnEditProfile>false</InnEditProfile>
-<EmailDoubleAddProfile>true</EmailDoubleAddProfile>
-<PhoneNumberDoubleAddProfile>true</PhoneNumberDoubleAddProfile>
+<PhoneNumberSMSConfirmationProfile>true</PhoneNumberSMSConfirmationProfile>
 </node>
 </nodes>
 </param>
@@ -7847,79 +7839,125 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 <type>list</type>
 <enabled>true</enabled>
 <minorsLimit>50000</minorsLimit>
+ <!--
+ Настройка предупреждающих сообщений при разнице валют 
+-->
+<diffCurrencyTexts>
+<diffCurrencyText id="Normal">
+<DCWarningTitle>Не теряйте деньги на конвертации</DCWarningTitle>
+<DCWarningText>
+Валюты вклада и выбранного счёта не совпадают, поэтому перевод пройдёт с конвертацией по текущему курсу. Чтобы не терять деньги, выберите счёт в валюте вклада.
+</DCWarningText>
+<DCWarningOkButton>ПЕРЕВЕСТИ</DCWarningOkButton>
+<DCWarningCancelButton>ВЫБРАТЬ ДРУГОЙ СЧЁТ</DCWarningCancelButton>
+</diffCurrencyText>
+<diffCurrencyText id="Pref">
+<DCWarningTitle>Не теряйте деньги на конвертации</DCWarningTitle>
+<DCWarningText>
+Валюты вклада и выбранного счёта не совпадают, поэтому перевод пройдёт с конвертацией по льготному курсу. Чтобы не терять деньги, выберите счёт в валюте вклада.
+</DCWarningText>
+<DCWarningOkButton>ПЕРЕВЕСТИ</DCWarningOkButton>
+<DCWarningCancelButton>ВЫБРАТЬ ДРУГОЙ СЧЁТ</DCWarningCancelButton>
+</diffCurrencyText>
+<diffCurrencyText id="Unknown">
+<DCWarningTitle>Не теряйте деньги на конвертации</DCWarningTitle>
+<DCWarningText>
+Валюты вклада и выбранного счёта не совпадают, поэтому перевод пройдёт с конвертацией. Чтобы не терять деньги, выберите счёт в валюте вклада.
+</DCWarningText>
+<DCWarningOkButton>ПЕРЕВЕСТИ</DCWarningOkButton>
+<DCWarningCancelButton>ВЫБРАТЬ ДРУГОЙ СЧЁТ</DCWarningCancelButton>
+</diffCurrencyText>
+</diffCurrencyTexts>
 <nodes>
  <!--
 Смотрим на параметр amountPickerShowHintPopoverNew с версии 9.6
+-->
+ <!--
+Смотрим на параметр diffCurrencyWarning с версии 9.7
 -->
 <node id="mobile.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>false</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="node0.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="node1.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="node2.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="node3.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="node4.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="greenfield1.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="greenfield2.online.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="ift-node3-mp.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="ift-node4-mp.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="psinode1.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 <node id="psinode2.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
 </nodes>
 </param>
@@ -8012,6 +8050,48 @@ https: //nginx-ios.ift-node5.testonline.sberbank.ru/
 </nodes>
 </param>
 <param name="CollapseDepositsOfSameType" description="Оптимизация отображения вкладов, доступных для открытия">
+<type>list</type>
+<enabled>true</enabled>
+<nodes>
+<node id="mobile.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node0.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node3.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="node4.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode2.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+<node id="psinode1.testonline.sberbank.ru">
+<enabled>true</enabled>
+</node>
+</nodes>
+</param>
+<param name="CollapseDepositsOfSameTypeWithoutDistinctUnion" description="Изменение отображения Условий вклада при открытии">
 <type>list</type>
 <enabled>true</enabled>
 <nodes>
@@ -8942,6 +9022,10 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <AgreementLink>
 https://test.stat.online.sberbank.ru/WESTERNUNION/Oferta_Western_Union_a2a.pdf
 </AgreementLink>
+<WUViewTutorial description="Отображение туториала">
+<enabled>true</enabled>
+<countTutorial>1</countTutorial>
+</WUViewTutorial>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <enabled>false</enabled>
