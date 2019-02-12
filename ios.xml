@@ -2359,7 +2359,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <param name="900Permissions" description="">
 <type>list</type>
 <pushAlertTimeInterval>86400</pushAlertTimeInterval>
-<efsMobileBank>false</efsMobileBank>
+<efsMobileBank>true</efsMobileBank>
 <nodes>
 <node id="ift-node1.testonline.sberbank.ru">
 <efsMobileBank>true</efsMobileBank>
