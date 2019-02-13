@@ -244,7 +244,7 @@
 <enabled>true</enabled>
 <paymentsServiceTutorial>false</paymentsServiceTutorial>
 <debtServiceTutorial>false</debtServiceTutorial>
-<paymentService>true</paymentService>
+<paymentService>false</paymentService>
 <paymentService_v96>true</paymentService_v96>
 <debtService>true</debtService>
 <debtRemoveService>true</debtRemoveService>
@@ -264,11 +264,11 @@
 <enabled>true</enabled>
 <paymentsServiceTutorial>false</paymentsServiceTutorial>
 <debtServiceTutorial>false</debtServiceTutorial>
-<paymentService>true</paymentService>
-<paymentService_v96>true</paymentService_v96>
+<paymentService>false</paymentService>
+<paymentService_v96>false</paymentService_v96>
 <debtService>true</debtService>
 <debtRemoveService>true</debtRemoveService>
-<debtRenameService>false</debtRenameService>
+<debtRenameService>true</debtRenameService>
 </node>
 <node id="ift-node3.testonline.sberbank.ru">
 <enabled>true</enabled>
@@ -374,7 +374,7 @@
 <enabled>false</enabled>
 <paymentsServiceTutorial>false</paymentsServiceTutorial>
 <debtServiceTutorial>false</debtServiceTutorial>
-<paymentService>true</paymentService>
+<paymentService>false</paymentService>
 <paymentService_v96>false</paymentService_v96>
 <debtService>false</debtService>
 <debtRemoveService>false</debtRemoveService>
@@ -1660,7 +1660,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <MessengerPin>true</MessengerPin>
 <MessengerTyping>true</MessengerTyping>
 <MessengerChatMute>true</MessengerChatMute>
-<MessengerGroupChatEnabled>false</MessengerGroupChatEnabled>
+<MessengerGroupChatEnabled>true</MessengerGroupChatEnabled>
 <MessengerGroupChat>false</MessengerGroupChat>
 <MessengerGroupChatAvatarLoadingEnabled>true</MessengerGroupChatAvatarLoadingEnabled>
 <ChatWithBankLikeGroupchat>true</ChatWithBankLikeGroupchat>
@@ -1686,7 +1686,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <MessengerPin>true</MessengerPin>
 <MessengerTyping>true</MessengerTyping>
 <MessengerChatMute>true</MessengerChatMute>
-<MessengerGroupChatEnabled>false</MessengerGroupChatEnabled>
+<MessengerGroupChatEnabled>true</MessengerGroupChatEnabled>
 <MessengerGroupChat>false</MessengerGroupChat>
 <MessengerGroupChatAvatarLoadingEnabled>true</MessengerGroupChatAvatarLoadingEnabled>
 <ChatWithBankLikeGroupchat>true</ChatWithBankLikeGroupchat>
@@ -1764,7 +1764,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <MessengerPin>true</MessengerPin>
 <MessengerTyping>true</MessengerTyping>
 <MessengerChatMute>true</MessengerChatMute>
-<MessengerGroupChatEnabled>false</MessengerGroupChatEnabled>
+<MessengerGroupChatEnabled>true</MessengerGroupChatEnabled>
 <MessengerGroupChat>false</MessengerGroupChat>
 <MessengerGroupChatAvatarLoadingEnabled>true</MessengerGroupChatAvatarLoadingEnabled>
 <ChatWithBankLikeGroupchat>true</ChatWithBankLikeGroupchat>
@@ -1790,7 +1790,7 @@ https://test.stat.online.sberbank.ru/Dialogues/SberkotNewYear.mp4
 <MessengerPin>true</MessengerPin>
 <MessengerTyping>true</MessengerTyping>
 <MessengerChatMute>true</MessengerChatMute>
-<MessengerGroupChatEnabled>false</MessengerGroupChatEnabled>
+<MessengerGroupChatEnabled>true</MessengerGroupChatEnabled>
 <MessengerGroupChat>false</MessengerGroupChat>
 <MessengerGroupChatAvatarLoadingEnabled>true</MessengerGroupChatAvatarLoadingEnabled>
 <ChatWithBankLikeGroupchat>true</ChatWithBankLikeGroupchat>
@@ -5326,6 +5326,10 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <type>service</type>
 <enabled>true</enabled>
 </param>
+<param name="creditCardDynamicFields" description="Динамические поля на экране с информацией по кредитной карте при заказе в ЕФС">
+<type>service</type>
+<enabled>true</enabled>
+</param>
 <param name="creditCardUfsHistory" description="Отображение подробностей по заказу кредитной карты ЕФС в ИО">
 <type>service</type>
 <enabled>true</enabled>
@@ -5511,6 +5515,10 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 </param>
 <param name="CarLoansTutorial" description="Отображение туториала">
+<type>setting</type>
+<enabled>true</enabled>
+</param>
+<param name="CarLoansRus" description="Ввод марок/моделей на русском">
 <type>setting</type>
 <enabled>true</enabled>
 </param>
@@ -6084,7 +6092,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="SberIdSeamlessAuth" description="Включение функционала бесшовной аутентификации через СБОЛ">
 <type>setting</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 </param>
 <param name="SberIDNewClaims" description="Доработки по отображению списка передаваемых данных">
 <type>setting</type>
@@ -7191,7 +7199,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <mapInOperationDetails>true</mapInOperationDetails>
 <arrestAndPunishmentOperations>true</arrestAndPunishmentOperations>
 <advertisementInHistoryList>true</advertisementInHistoryList>
-<extEpsPaymentOperation>true</extEpsPaymentOperation>
+<extEpsPaymentOperation>false</extEpsPaymentOperation>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <externalOperationForm>true</externalOperationForm>
@@ -7942,6 +7950,12 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 <amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
 <diffCurrencyWarning>true</diffCurrencyWarning>
 </node>
+<node id="ift-node0-mp.testonline.sberbank.ru">
+<minorsWarning>true</minorsWarning>
+<autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
+<amountPickerShowHintPopoverNew>true</amountPickerShowHintPopoverNew>
+<diffCurrencyWarning>true</diffCurrencyWarning>
+</node>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <minorsWarning>true</minorsWarning>
 <autoSelectionForDepositTransferToResource>true</autoSelectionForDepositTransferToResource>
@@ -8249,6 +8263,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <type>list</type>
+<PUSHNotificationsTransactionContentExtension>true</PUSHNotificationsTransactionContentExtension
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -8444,7 +8459,6 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 </node>
 <node id="mobile.sberbank.ru">
 <buttonToPostLogin>true</buttonToPostLogin>
-<showNewAttributesInPushContent>true</showNewAttributesInPushContent>
 <pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
 <MFMSMessageRequestType>2</MFMSMessageRequestType>
 <NotificationSettingsOwn>true</NotificationSettingsOwn>
