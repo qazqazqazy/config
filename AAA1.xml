@@ -4833,7 +4833,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
-						<version from="9.2" value="true"/>
+						<version from="9.2" value="false"/>
 					</hideMainPushNotificationsSwitcher>
 					<notificationShowWithOperationType>
 						<version from="9.1" value="true"/>
@@ -4892,7 +4892,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
-						<version from="9.2" value="true"/>
+						<version from="9.2" value="false"/>
 					</hideMainPushNotificationsSwitcher>
 					<notificationShowWithOperationType>
 						<version from="9.1" value="true"/>
@@ -4951,7 +4951,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
-						<version from="9.2" value="true"/>
+						<version from="9.2" value="false"/>
 					</hideMainPushNotificationsSwitcher>
 					<notificationShowWithOperationType>
 						<version from="9.1" value="true"/>
@@ -5010,7 +5010,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
-						<version from="9.2" value="true"/>
+						<version from="9.2" value="false"/>
 					</hideMainPushNotificationsSwitcher>
 					<notificationShowWithOperationType>
 						<version from="9.1" value="true"/>
@@ -5060,7 +5060,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
-						<version from="9.2" value="true"/>
+						<version from="9.2" value="false"/>
 					</hideMainPushNotificationsSwitcher>
 					<notificationShowWithOperationType>
 						<version from="9.1" value="true"/>
@@ -5107,7 +5107,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 						<version from="9.2" value="true"/>
 					</notificationDesign_2019_01>
 					<hideMainPushNotificationsSwitcher>
-						<version from="9.2" value="true"/>
+						<version from="9.2" value="false"/>
 					</hideMainPushNotificationsSwitcher>
 					<showCuteChequeWithoutMerchantName>true</showCuteChequeWithoutMerchantName>
 					<notificationShowWithOperationType>
