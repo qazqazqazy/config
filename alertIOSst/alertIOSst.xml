@@ -8370,7 +8370,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 					<XMLHeaderEncodingFix>true</XMLHeaderEncodingFix>
 					<transferTPUSettingsOnNewRegistration>true</transferTPUSettingsOnNewRegistration>
-					<newAlertWhenTPUActivate>false</newAlertWhenTPUActivate>
+					<newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 				</node>
 				<node id="node2.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
@@ -8397,7 +8397,7 @@ https://nginx-ios.ift-node5.testonline.sberbank.ru/
 					<hideMainPushNotificationsSwitcher>true</hideMainPushNotificationsSwitcher>
 					<XMLHeaderEncodingFix>true</XMLHeaderEncodingFix>
 					<transferTPUSettingsOnNewRegistration>true</transferTPUSettingsOnNewRegistration>
-					<newAlertWhenTPUActivate>false</newAlertWhenTPUActivate>
+					<newAlertWhenTPUActivate>true</newAlertWhenTPUActivate>
 				</node>
 				<node id="node3.online.sberbank.ru">
 					<buttonToPostLogin>true</buttonToPostLogin>
