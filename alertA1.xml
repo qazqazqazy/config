@@ -4562,7 +4562,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>false</mobileBankFromSettings>
+<mobileBankFromSettings>true</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
 <changeNotificationPhoneNumberFromProfileEditor>false</changeNotificationPhoneNumberFromProfileEditor>
