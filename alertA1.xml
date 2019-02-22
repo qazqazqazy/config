@@ -1600,7 +1600,10 @@ The entered ID is already in use in the system. Enter a different value
 <longText>
 <![CDATA[
 
- С 28 апреля по 30 апреля мы проводим технологические работы по преобразованию региональной сети банка, в связи с чем в Сбербанк Онлайн будут действовать ограничения: · 28 апреля с 22:00 до 01:00 29 апреля по московскому времени недоступны операции по счетам (вклады, металлические счета): переводы между счетами, валютно-обменные операции, формирование выписок; · 29 апреля с 01:00 до 07:00 по московскому времени Сбербанк Онлайн будет полностью недоступен (невозможен вход); · 29 апреля с 07:00 до 14:00 по московскому времени недоступны: история операций, диалоги, работа с ранее созданными шаблонами и интернет-заказами, ранее установленные настройки профиля; · 29 апреля с 07:00 до 04:00 30 апреля по московскому времени сумма полной задолженности по кредиту будет актуальна на дату предыдущего входа в Сбербанк Онлайн. Подробнее с информацией о влиянии работ по преобразованию региональной сети банка вы можете ознакомиться на [www.sberbank.ru](http://www.sberbank.ru/techbreak) или позвонив по бесплатному номеру 8 800 100-74-05.
+ С 28 апреля по 30 апреля мы проводим технологические работы по преобразованию региональной сети банка, в связи с чем в Сбербанк Онлайн будут действовать ограничени
+]]>
+<![CDATA[
+я: · 28 апреля с 22:00 до 01:00 29 апреля по московскому времени недоступны операции по счетам (вклады, металлические счета): переводы между счетами, валютно-обменные операции, формирование выписок; · 29 апреля с 01:00 до 07:00 по московскому времени Сбербанк Онлайн будет полностью недоступен (невозможен вход); · 29 апреля с 07:00 до 14:00 по московскому времени недоступны: история операций, диалоги, работа с ранее созданными шаблонами и интернет-заказами, ранее установленные настройки профиля; · 29 апреля с 07:00 до 04:00 30 апреля по московскому времени сумма полной задолженности по кредиту будет актуальна на дату предыдущего входа в Сбербанк Онлайн. Подробнее с информацией о влиянии работ по преобразованию региональной сети банка вы можете ознакомиться на [www.sberbank.ru](http://www.sberbank.ru/techbreak) или позвонив по бесплатному номеру 8 800 100-74-05.
 ]]>
 </longText>
 </importantInfo>
@@ -4559,7 +4562,7 @@ http://www.sberbank.ru/common/img/uploaded/files/pdf/usloviya_perevoda.pdf
 <targetTapToActivationMobileBank>true</targetTapToActivationMobileBank>
 <cacheEnabled>true</cacheEnabled>
 <showMobileBankStatusOnCardList>true</showMobileBankStatusOnCardList>
-<mobileBankFromSettings>true</mobileBankFromSettings>
+<mobileBankFromSettings>false</mobileBankFromSettings>
 <turnOffFullTariffEnabled>true</turnOffFullTariffEnabled>
 <turnOffFullTariffEnabled83>true</turnOffFullTariffEnabled83>
 <changeNotificationPhoneNumberFromProfileEditor>false</changeNotificationPhoneNumberFromProfileEditor>
@@ -4776,7 +4779,7 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
 <newAlertWhenTPUActivate>
-<version from="9.4" value="true"/>
+<version from="9.4" value="false"/>
 </newAlertWhenTPUActivate>
 <mobileBankFromSettings>true</mobileBankFromSettings>
 </node>
@@ -4833,6 +4836,10 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
+<newAlertWhenTPUActivate>
+<version from="9.4" value="true"/>
+</newAlertWhenTPUActivate>
+<mobileBankFromSettings>true</mobileBankFromSettings>
 <node id="ift-node2.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -4886,6 +4893,10 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
+<newAlertWhenTPUActivate>
+<version from="9.4" value="true"/>
+</newAlertWhenTPUActivate>
+<mobileBankFromSettings>true</mobileBankFromSettings>
 <node id="ift-node1-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
 <doNotContainTPUInBadgeNewNotificationEntryPoint>false</doNotContainTPUInBadgeNewNotificationEntryPoint>
@@ -4938,6 +4949,10 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 </cardNotificationTapShowsDialog>
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
+<newAlertWhenTPUActivate>
+<version from="9.4" value="true"/>
+</newAlertWhenTPUActivate>
+<mobileBankFromSettings>true</mobileBankFromSettings>
 </node>
 <node id="ift-node2-mp.testonline.sberbank.ru">
 <excludeNotificationTypesFromBadgeInPreLogin>2,3,4,5,6,7,8,9,10</excludeNotificationTypesFromBadgeInPreLogin>
@@ -4992,6 +5007,10 @@ https://eis.online.sberbank.ru:9443/ext-integration-service-app/tokens/confirmOf
 <snackBarIgnoreTPUOlderDays>14</snackBarIgnoreTPUOlderDays>
 <snackBarDisplayTime>2</snackBarDisplayTime>
 </node>
+<newAlertWhenTPUActivate>
+<version from="9.4" value="true"/>
+</newAlertWhenTPUActivate>
+<mobileBankFromSettings>true</mobileBankFromSettings>
 <node id="node4.online.sberbank.ru">
 <autoTurnOffOperationPush>true</autoTurnOffOperationPush>
 <alternativePushSettingTexts>true</alternativePushSettingTexts>
